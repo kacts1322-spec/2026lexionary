@@ -1,13 +1,19 @@
 const CONFIG = {
-    password: '1212',
+    password: '0000',
     storageKey: 'lectionary_auth'
 };
 
 let lectionaryData = [];
 let bibleTextData = {};
 let currentYear = 2026;
-let currentMonth = 0; // 0-indexed
+let currentMonth = new Date().getMonth();
 let selectedDate = new Date();
+
+if (selectedDate.getFullYear() !== 2026) {
+    selectedDate = new Date('2026-01-01');
+    currentYear = 2026;
+    currentMonth = 0;
+}
 
 // DOM Elements
 const authScreen = document.getElementById('auth-screen');
@@ -22,7 +28,6 @@ const todayBtn = document.getElementById('today-button');
 const bibleCardsContainer = document.getElementById('bible-cards-container');
 const selectedDateDisplay = document.getElementById('selected-date-display');
 
-// Init
 async function init() {
     checkAuth();
     await loadData();
@@ -45,7 +50,7 @@ async function loadData() {
             fetch('lectionary_2026.json'),
             fetch('bible_text_2026.json')
         ]);
-        if (!lecRes.ok || !bibRes.ok) throw new Error('파일을 찾을 수 없습니다.');
+        if (!lecRes.ok || !bibRes.ok) throw new Error('Data sync required');
         lectionaryData = await lecRes.json();
         bibleTextData = await bibRes.json();
     } catch (error) {
@@ -57,23 +62,31 @@ async function loadData() {
 function showLoadingError() {
     bibleCardsContainer.innerHTML = `
         <div class="error-msg">
-            <strong>⚠️ 데이터를 불러올 수 없습니다.</strong><br>
-            브라우저 보안 정책(CORS)으로 인해 로컬 파일 시스템에서는 파일 로드가 제한될 수 있습니다.<br>
-            - VS Code 'Live Server'로 실행하거나<br>
-            - GitHub Pages에 올려서 확인해 주세요.
+            <strong>✨ 환영합니다!</strong><br>
+            현재 로컬 파일 시스템에서 실행 중이어서 데이터를 직접 불러올 수 없습니다.<br><br>
+            <strong>💡 해결 방법:</strong><br>
+            1. VS Code의 <strong>'Live Server'</strong>로 실행하시거나<br>
+            2. 본 소스코드를 <strong>GitHub Pages</strong>에 업로드하시면<br>
+            366일 전체 성서정과와 말씀을 바로 확인하실 수 있습니다.
         </div>
     `;
 }
 
 function setupEventListeners() {
-    loginButton.addEventListener('click', () => {
+    const handleLogin = () => {
         if (passwordInput.value === CONFIG.password) {
             localStorage.setItem(CONFIG.storageKey, 'true');
             authScreen.classList.add('hidden');
             mainScreen.classList.remove('hidden');
         } else {
             alert('비밀번호가 올바르지 않습니다.');
+            passwordInput.value = '';
         }
+    };
+
+    loginButton.addEventListener('click', handleLogin);
+    passwordInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleLogin();
     });
 
     prevMonthBtn.addEventListener('click', () => changeMonth(-1));
@@ -94,22 +107,23 @@ function goToToday() {
     currentMonth = today.getMonth();
     selectedDate = today;
     renderCalendar();
-    showDateContent(today);
+    showDateContent(selectedDate);
 }
 
 function renderCalendar() {
     monthDisplay.innerText = `${currentYear}년 ${currentMonth + 1}월`;
 
-    const dateCells = calendarGrid.querySelectorAll('.date-cell');
-    dateCells.forEach(cell => cell.remove());
+    // Clear only date cells
+    const oldCells = calendarGrid.querySelectorAll('.date-cell');
+    oldCells.forEach(c => c.remove());
 
     const firstDay = new Date(currentYear, currentMonth, 1).getDay();
     const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
 
     for (let i = 0; i < firstDay; i++) {
-        const emptyCell = document.createElement('div');
-        emptyCell.className = 'date-cell empty';
-        calendarGrid.appendChild(emptyCell);
+        const empty = document.createElement('div');
+        empty.className = 'date-cell empty';
+        calendarGrid.appendChild(empty);
     }
 
     for (let d = 1; d <= daysInMonth; d++) {
@@ -133,7 +147,7 @@ function renderCalendar() {
         cell.addEventListener('click', () => {
             selectedDate = dateObj;
             renderCalendar();
-            showDateContent(dateObj);
+            showDateContent(selectedDate);
         });
 
         calendarGrid.appendChild(cell);
@@ -142,15 +156,11 @@ function renderCalendar() {
 
 function isToday(date) {
     const today = new Date();
-    return date.getDate() === today.getDate() &&
-        date.getMonth() === today.getMonth() &&
-        date.getFullYear() === today.getFullYear();
+    return date.toDateString() === today.toDateString();
 }
 
 function isSelected(date) {
-    return date.getDate() === selectedDate.getDate() &&
-        date.getMonth() === selectedDate.getMonth() &&
-        date.getFullYear() === selectedDate.getFullYear();
+    return date.toDateString() === selectedDate.toDateString();
 }
 
 function showDateContent(date) {
@@ -158,38 +168,38 @@ function showDateContent(date) {
     const dayData = lectionaryData.find(item => item.date === dateStr);
 
     selectedDateDisplay.querySelector('h3').innerText = `${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일 (${getDayName(date)})`;
-    selectedDateDisplay.querySelector('.season-info').innerText = dayData ? dayData.season : '';
+    selectedDateDisplay.querySelector('.season-info').innerText = dayData ? dayData.season : '평일';
 
     bibleCardsContainer.innerHTML = '';
 
-    if (!dayData) {
-        bibleCardsContainer.innerHTML = '<p>데이터가 없습니다.</p>';
+    if (!dayData || !dayData.items || dayData.items.length === 0) {
+        bibleCardsContainer.innerHTML = '<p style="color: #64748b; text-align: center; padding: 2rem;">선택한 날짜의 성서정과 데이터가 없습니다.</p>';
         return;
     }
 
-    let items = dayData.items.map(it => it.ref || it);
-    let itemsToShow = [...items];
+    // Logic for related readings (Gospel on weekdays etc.)
+    let itemsToShow = dayData.items.map(it => it.ref || it);
     const dayOfWeek = date.getDay();
 
+    // Custom logic: Add previous/next Sunday Gospel for context if it's a weekday
     if (dayOfWeek >= 1 && dayOfWeek <= 3) {
         const prevSun = getPreviousSunday(date);
         const prevSunData = lectionaryData.find(item => item.date === prevSun);
-        if (prevSunData) {
+        if (prevSunData && prevSunData.items.length > 0) {
             const gospel = prevSunData.items[prevSunData.items.length - 1];
             itemsToShow = [gospel.ref || gospel, ...itemsToShow];
         }
     } else if (dayOfWeek >= 4 && dayOfWeek <= 6) {
         const nextSun = getNextSunday(date);
         const nextSunData = lectionaryData.find(item => item.date === nextSun);
-        if (nextSunData) {
+        if (nextSunData && nextSunData.items.length > 0) {
             const gospel = nextSunData.items[nextSunData.items.length - 1];
             itemsToShow = [gospel.ref || gospel, ...itemsToShow];
         }
     }
 
     itemsToShow.forEach(ref => {
-        const card = createBibleCard(ref);
-        bibleCardsContainer.appendChild(card);
+        bibleCardsContainer.appendChild(createBibleCard(ref));
     });
 }
 
@@ -203,7 +213,6 @@ function createBibleCard(ref) {
 
     const textDiv = document.createElement('div');
     textDiv.className = 'bible-text';
-
     textDiv.innerText = getBibleText(ref);
     card.appendChild(textDiv);
 
@@ -236,22 +245,14 @@ const BOOK_ALIASES = {
 
 function getBibleText(ref) {
     if (bibleTextData[ref]) return bibleTextData[ref].text;
-
-    // Try normalized match
     const normalized = normalizeRef(ref);
     if (bibleTextData[normalized]) return bibleTextData[normalized].text;
-
-    return "본문 데이터가 없습니다. (수집 스크립트 실행 확인 필요)";
+    return "성경 본문을 불러오는 중이거나 데이터가 없습니다.";
 }
 
 function normalizeRef(ref) {
     let r = ref.trim().replace(/\s+/g, ' ');
-    // Handle Psalm special case
-    if (r.endsWith('편')) {
-        r = r.replace('편', '').trim();
-    }
-
-    // Replace abbreviation with full name
+    if (r.endsWith('편')) r = r.replace('편', '').trim();
     const parts = r.split(' ');
     if (parts.length >= 1) {
         const book = parts[0];

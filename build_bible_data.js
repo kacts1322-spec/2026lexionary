@@ -47,6 +47,8 @@ const BOOK_VL = {
   "디도서": 56, "빌레몬서": 57, "히브리서": 58, "야고보서": 59,
   "베드로전서": 60, "베드로후서": 61, "요한일서": 62, "요한이서": 63,
   "요한삼서": 64, "유다서": 65, "요한계시록": 66,
+  "토빗기": 67, "유딧기": 68, "지혜서": 69, "집회서": 70, "바룩서": 71,
+  "마카베오상": 74, "마카베오하": 75,
 };
 
 const BOOK_ALIASES = {
@@ -71,6 +73,8 @@ const BOOK_ALIASES = {
   "벧전": "베드로전서", "벧후": "베드로후서",
   "요일": "요한일서", "요이": "요한이서", "요삼": "요한삼서",
   "유": "유다서", "계": "요한계시록",
+  "지혜": "지혜서", "집회": "집회서", "토빗": "토빗기", "유딧": "유딧기", "바룩": "바룩서",
+  "마카상": "마카베오상", "마카하": "마카베오하",
 };
 
 function stripVerseSuffixAB(s) {
@@ -168,29 +172,63 @@ async function main() {
   if (fs.existsSync(OUTPUT_BIBLE_JSON)) {
     try { out = JSON.parse(fs.readFileSync(OUTPUT_BIBLE_JSON, "utf-8")); } catch { out = {}; }
   }
-  const seen = new Set();
+
+  const errors = [];
+  const seenStr = new Set();
+
   for (const day of lectionary) {
     for (const it of day.items) {
-      const ref = it.ref || it;
-      if (seen.has(ref)) continue;
-      seen.add(ref);
-      try {
-        const p = parseRef(ref);
-        const storeKey = p.crossChapter ? `${p.book} ${p.chapter}:${p.verseStart}-${p.crossChapter.chapter2}:${p.crossChapter.verseEnd2}` : (p.verseStart == null ? `${p.book} ${p.chapter}` : `${p.book} ${p.chapter}:${p.verseStart}-${p.verseEnd}`);
+      const rawRef = it.ref || it;
 
-        // RE-FETCH regardless of existing entry IF it's empty
-        if (out[storeKey] && out[storeKey].text && out[storeKey].text.trim().length > 5) continue;
+      // Split by semicolon OR comma followed by numbers (e.g., "지혜 1:13-15, 2:23-24")
+      // We use a regex that looks for comma/semicolon and ensures the next part might be a chapter reference
+      const subRefs = rawRef.split(/[;,]/).map(s => s.trim()).filter(Boolean);
+      let lastBook = "";
+      let lastChapter = "";
 
-        console.log(`Fetching: ${storeKey}`);
-        const text = await fetchRangeText(p);
-        out[storeKey] = { ref: storeKey, text };
-        fs.writeFileSync(OUTPUT_BIBLE_JSON, JSON.stringify(out, null, 2), "utf-8");
-        await politeDelay();
-      } catch (e) {
-        console.warn(`Error on ${ref}: ${e.message}`);
+      for (let sub of subRefs) {
+        // Clean up common chars first for inheritance check
+        sub = sub.replace(/[()［］\[\]]/g, "").trim();
+
+        // Case 1: sub is just verses (e.g. "12-19" after "Job 1:1-5")
+        if (/^\d/.test(sub) && !sub.includes(':') && !sub.includes(' ') && lastBook && lastChapter) {
+          sub = `${lastBook} ${lastChapter}:${sub}`;
+        }
+        // Case 2: sub starts with digit/chapter but no book (e.g. "2:1-3")
+        else if ((/^\d/.test(sub) || !sub.includes(' ')) && lastBook) {
+          if (!sub.startsWith(lastBook)) sub = `${lastBook} ${sub}`;
+        }
+
+        if (seenStr.has(sub)) continue;
+        seenStr.add(sub);
+
+        try {
+          const p = parseRef(sub);
+          lastBook = p.book; // Update context
+          lastChapter = p.chapter;
+
+          const storeKey = p.crossChapter ? `${p.book} ${p.chapter}:${p.verseStart}-${p.crossChapter.chapter2}:${p.crossChapter.verseEnd2}` : (p.verseStart == null ? `${p.book} ${p.chapter}` : `${p.book} ${p.chapter}:${p.verseStart}-${p.verseEnd}`);
+
+          if (out[storeKey] && out[storeKey].text && out[storeKey].text.trim().length > 5) continue;
+
+          console.log(`Fetching: ${storeKey}`);
+          const text = await fetchRangeText(p);
+          out[storeKey] = { ref: storeKey, text };
+          fs.writeFileSync(OUTPUT_BIBLE_JSON, JSON.stringify(out, null, 2), "utf-8");
+          await politeDelay();
+        } catch (e) {
+          console.warn(`Error on ${sub}: ${e.message}`);
+          errors.push({ raw: sub, error: e.message });
+        }
       }
     }
   }
-  console.log("Done.");
+
+  if (errors.length > 0) {
+    console.log("\n--- 수집 실패 목록 ---");
+    const uniqueErrors = [...new Set(errors.map(e => `${e.raw} (${e.error})`))];
+    uniqueErrors.forEach(e => console.log(e));
+  }
+  console.log("\nDone.");
 }
 main();
