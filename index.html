@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성서정과 매일 묵상 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 인증 화면 -->
+    <div id="auth-screen" class="screen">
+        <div class="auth-container">
+            <h1>성서정과 매일 묵상 2026</h1>
+            <p>비밀번호를 입력하세요</p>
+            <input type="password" id="password-input" placeholder="비밀번호" autofocus>
+            <button id="login-button">입장</button>
+        </div>
+    </div>
+
+    <!-- 메인 화면 -->
+    <div id="main-screen" class="screen hidden">
+        <header>
+            <h1>성서정과 매일 묵상 2026</h1>
+            <button id="today-button">오늘말씀</button>
+        </header>
+
+        <main class="container">
+            <section class="calendar-section">
+                <div class="calendar-header">
+                    <button id="prev-month">&lt;</button>
+                    <h2 id="current-month-display">2026년 1월</h2>
+                    <button id="next-month">&gt;</button>
+                </div>
+                <div id="calendar-grid" class="calendar-grid">
+                    <!-- 요일 헤더 -->
+                    <div class="weekday">일</div>
+                    <div class="weekday">월</div>
+                    <div class="weekday">화</div>
+                    <div class="weekday">수</div>
+                    <div class="weekday">목</div>
+                    <div class="weekday">금</div>
+                    <div class="weekday">토</div>
+                    <!-- 날짜 데이터 -->
+                </div>
+            </section>
+
+            <section class="content-section">
+                <div id="selected-date-display">
+                    <h3>2026년 1월 1일 (목)</h3>
+                    <p class="season-info">새해</p>
+                </div>
+                <div id="bible-cards-container">
+                    <!-- 성경 본문 카드 -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
