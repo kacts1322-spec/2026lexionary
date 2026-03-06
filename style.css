@@ -263,13 +263,24 @@ header h1 {
     height: 7px;
     border-radius: 50%;
     position: absolute;
-    bottom: 3px;
+    bottom: 2px;
+    /* PC/Pad: 3px -> 2px */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
+
+    /* 모바일 세로 화면: 더 아래로 */
     .liturgical-dot {
-        bottom: 2px;
+        bottom: 1px;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+
+    /* 모바일 가로 화면: 너무 내려가지 않게 다시 위로 */
+    .liturgical-dot {
+        bottom: 5px;
     }
 }
 
