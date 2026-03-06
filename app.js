@@ -192,6 +192,16 @@ function showDateContent(date) {
     // Logic for related readings
     let itemsToShow = dayData && dayData.items ? dayData.items.map(it => it.ref || it) : [];
 
+    // 주일인 경우 순서 수정: 제1독서(구약) -> 시편 -> 제2독서(서신) -> 복음서
+    if (dayData && dayData.weekday === '일') {
+        const order = ["제1독서(구약)", "시편", "제2독서(서신)", "복음서"];
+        itemsToShow.sort((a, b) => {
+            const catA = classifyScripture(a);
+            const catB = classifyScripture(b);
+            return order.indexOf(catA) - order.indexOf(catB);
+        });
+    }
+
     itemsToShow.forEach(ref => {
         const card = createBibleCard(ref);
         bibleCardsContainer.appendChild(card);
@@ -239,9 +249,9 @@ function classifyScripture(ref) {
     ];
 
     if (gospels.includes(fullBook)) return "복음서";
-    if (epistles.includes(fullBook)) return "서신서";
+    if (epistles.includes(fullBook)) return "제2독서(서신)";
     if (fullBook === "시편") return "시편";
-    if (otBooks.includes(fullBook)) return "구약";
+    if (otBooks.includes(fullBook)) return "제1독서(구약)";
     if (fullBook === "사도행전" || fullBook === "요한계시록") return "신약";
 
     // 외경 등 예외 처리
