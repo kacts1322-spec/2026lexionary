@@ -189,26 +189,8 @@ function showDateContent(date) {
 
     bibleCardsContainer.innerHTML = '';
 
-    // Logic for related readings (Gospel on weekdays etc.)
+    // Logic for related readings
     let itemsToShow = dayData && dayData.items ? dayData.items.map(it => it.ref || it) : [];
-    const dayOfWeek = date.getDay();
-
-    // Custom logic: Add previous/next Sunday Gospel for context if it's a weekday
-    if (dayOfWeek >= 1 && dayOfWeek <= 3) {
-        const prevSun = getPreviousSunday(date);
-        const prevSunData = lectionaryData.find(item => item.date === prevSun);
-        if (prevSunData && prevSunData.items && prevSunData.items.length > 0) {
-            const gospel = prevSunData.items[prevSunData.items.length - 1];
-            itemsToShow = [gospel.ref || gospel, ...itemsToShow];
-        }
-    } else if (dayOfWeek >= 4 && dayOfWeek <= 6) {
-        const nextSun = getNextSunday(date);
-        const nextSunData = lectionaryData.find(item => item.date === nextSun);
-        if (nextSunData && nextSunData.items && nextSunData.items.length > 0) {
-            const gospel = nextSunData.items[nextSunData.items.length - 1];
-            itemsToShow = [gospel.ref || gospel, ...itemsToShow];
-        }
-    }
 
     if (itemsToShow.length === 0) {
         bibleCardsContainer.innerHTML = '<p style="color: #64748b; text-align: center; padding: 2rem;">선택한 날짜의 성서정과 데이터가 없습니다.</p>';
@@ -284,17 +266,5 @@ function getDayName(date) {
     return ['일', '월', '화', '수', '목', '금', '토'][date.getDay()];
 }
 
-function getPreviousSunday(d) {
-    const date = new Date(d);
-    date.setDate(date.getDate() - date.getDay());
-    return formatDate(date);
-}
-
-function getNextSunday(d) {
-    const date = new Date(d);
-    date.setDate(date.getDate() + (7 - date.getDay()) % 7);
-    if (date.getTime() === d.getTime()) date.setDate(date.getDate() + 7);
-    return formatDate(date);
-}
 
 init();
