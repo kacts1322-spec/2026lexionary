@@ -50,9 +50,19 @@ async function loadData() {
             fetch('lectionary_2026.json'),
             fetch('bible_text_2026.json')
         ]);
+
+        if (!lecRes.ok) {
+            console.error('Lectionary data fetch failed:', lecRes.status, lecRes.statusText);
+        }
+        if (!bibRes.ok) {
+            console.error('Bible text data fetch failed:', bibRes.status, bibRes.statusText);
+        }
+
         if (!lecRes.ok || !bibRes.ok) throw new Error('Data sync required');
+
         lectionaryData = await lecRes.json();
         bibleTextData = await bibRes.json();
+        console.log('Data loaded successfully');
     } catch (error) {
         console.error('Data loading failed:', error);
         showLoadingError();
@@ -63,11 +73,11 @@ function showLoadingError() {
     bibleCardsContainer.innerHTML = `
         <div class="error-msg">
             <strong>✨ 환영합니다!</strong><br>
-            현재 로컬 파일 시스템에서 실행 중이어서 데이터를 직접 불러올 수 없습니다.<br><br>
+            데이터를 불러오는 데 문제가 발생했습니다.<br><br>
             <strong>💡 해결 방법:</strong><br>
-            1. VS Code의 <strong>'Live Server'</strong>로 실행하시거나<br>
-            2. 본 소스코드를 <strong>GitHub Pages</strong>에 업로드하시면<br>
-            366일 전체 성서정과와 말씀을 바로 확인하실 수 있습니다.
+            1. 네트워크 연결을 확인해 주세요.<br>
+            2. 로컬 파일 시스템에서 직접 실행 중이라면 <strong>'Live Server'</strong>를 사용해 주세요.<br>
+            3. GitHub Pages나 Vercel에 모든 JSON 파일이 업로드되었는지 확인해 주세요.
         </div>
     `;
 }
@@ -168,34 +178,34 @@ function showDateContent(date) {
     const dayData = lectionaryData.find(item => item.date === dateStr);
 
     selectedDateDisplay.querySelector('h3').innerText = `${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일 (${getDayName(date)})`;
-    selectedDateDisplay.querySelector('.season-info').innerText = dayData ? dayData.season : '평일';
+    selectedDateDisplay.querySelector('.season-info').innerText = dayData ? (dayData.season || '평일') : '평일';
 
     bibleCardsContainer.innerHTML = '';
 
-    if (!dayData || !dayData.items || dayData.items.length === 0) {
-        bibleCardsContainer.innerHTML = '<p style="color: #64748b; text-align: center; padding: 2rem;">선택한 날짜의 성서정과 데이터가 없습니다.</p>';
-        return;
-    }
-
     // Logic for related readings (Gospel on weekdays etc.)
-    let itemsToShow = dayData.items.map(it => it.ref || it);
+    let itemsToShow = dayData && dayData.items ? dayData.items.map(it => it.ref || it) : [];
     const dayOfWeek = date.getDay();
 
     // Custom logic: Add previous/next Sunday Gospel for context if it's a weekday
     if (dayOfWeek >= 1 && dayOfWeek <= 3) {
         const prevSun = getPreviousSunday(date);
         const prevSunData = lectionaryData.find(item => item.date === prevSun);
-        if (prevSunData && prevSunData.items.length > 0) {
+        if (prevSunData && prevSunData.items && prevSunData.items.length > 0) {
             const gospel = prevSunData.items[prevSunData.items.length - 1];
             itemsToShow = [gospel.ref || gospel, ...itemsToShow];
         }
     } else if (dayOfWeek >= 4 && dayOfWeek <= 6) {
         const nextSun = getNextSunday(date);
         const nextSunData = lectionaryData.find(item => item.date === nextSun);
-        if (nextSunData && nextSunData.items.length > 0) {
+        if (nextSunData && nextSunData.items && nextSunData.items.length > 0) {
             const gospel = nextSunData.items[nextSunData.items.length - 1];
             itemsToShow = [gospel.ref || gospel, ...itemsToShow];
         }
+    }
+
+    if (itemsToShow.length === 0) {
+        bibleCardsContainer.innerHTML = '<p style="color: #64748b; text-align: center; padding: 2rem;">선택한 날짜의 성서정과 데이터가 없습니다.</p>';
+        return;
     }
 
     itemsToShow.forEach(ref => {
