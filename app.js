@@ -192,19 +192,21 @@ function showDateContent(date) {
     // Logic for related readings
     let itemsToShow = dayData && dayData.items ? dayData.items.map(it => it.ref || it) : [];
 
-    if (itemsToShow.length === 0) {
-        bibleCardsContainer.innerHTML = '<p style="color: #64748b; text-align: center; padding: 2rem;">선택한 날짜의 성서정과 데이터가 없습니다.</p>';
-        return;
-    }
-
     itemsToShow.forEach(ref => {
-        bibleCardsContainer.appendChild(createBibleCard(ref));
+        const card = createBibleCard(ref);
+        bibleCardsContainer.appendChild(card);
     });
 }
 
 function createBibleCard(ref) {
     const card = document.createElement('div');
     card.className = 'bible-card';
+
+    const category = classifyScripture(ref);
+    const badge = document.createElement('span');
+    badge.className = 'bible-badge';
+    badge.innerText = category;
+    card.appendChild(badge);
 
     const title = document.createElement('h4');
     title.innerText = ref;
@@ -216,6 +218,34 @@ function createBibleCard(ref) {
     card.appendChild(textDiv);
 
     return card;
+}
+
+function classifyScripture(ref) {
+    const book = ref.split(' ')[0];
+    const fullBook = BOOK_ALIASES[book] || book;
+
+    const gospels = ["마태복음", "마가복음", "누가복음", "요한복음"];
+    const epistles = [
+        "로마서", "고린도전서", "고린도후서", "갈라디아서", "에베소서", "빌립보서", "골로새서",
+        "데살로니가전서", "데살로니가후서", "디모데전서", "디모데후서", "디도서", "빌레몬서",
+        "히브리서", "야고보서", "베드로전서", "베드로후서", "요한일서", "요한이서", "요한삼서", "유다서"
+    ];
+    const otBooks = [
+        "창세기", "출애굽기", "레위기", "민수기", "신명기", "여호수아", "사사기", "룻기",
+        "사무엘상", "사무엘하", "열왕기상", "열왕기하", "역대상", "역대하", "에스라", "느헤미야",
+        "에스더", "욥기", "잠언", "전도서", "아가", "이사야", "예레미야", "예레미야애가",
+        "에스겔", "다니엘", "호세아", "요엘", "아모스", "오바댜", "요나", "미가", "나훔",
+        "하박국", "스바냐", "학개", "스가랴", "말라기"
+    ];
+
+    if (gospels.includes(fullBook)) return "복음서";
+    if (epistles.includes(fullBook)) return "서신서";
+    if (fullBook === "시편") return "시편";
+    if (otBooks.includes(fullBook)) return "구약";
+    if (fullBook === "사도행전" || fullBook === "요한계시록") return "신약";
+
+    // 외경 등 예외 처리
+    return "성경";
 }
 
 const BOOK_ALIASES = {

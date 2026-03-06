@@ -3250,7 +3250,7 @@
     "date": "2026-05-25",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "red",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 104:24-35"
@@ -3267,7 +3267,7 @@
     "date": "2026-05-26",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "red",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 104:24-35"
@@ -3284,7 +3284,7 @@
     "date": "2026-05-27",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "red",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 104:24-35"
@@ -3301,7 +3301,7 @@
     "date": "2026-05-28",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "red",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 8"
@@ -3318,7 +3318,7 @@
     "date": "2026-05-29",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "red",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 8"
@@ -3335,7 +3335,7 @@
     "date": "2026-05-30",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "red",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 8"
@@ -3971,7 +3971,7 @@
     "date": "2026-07-05",
     "weekday": "일",
     "season": "맥추감사주일",
-    "liturgicalColor": "white",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "스가랴 9:9-12"
@@ -4092,7 +4092,7 @@
   {
     "date": "2026-07-12",
     "weekday": "일",
-    "season": "교사주일",
+    "season": "성령강림 후 7주",
     "liturgicalColor": "green",
     "items": [
       {
@@ -6289,7 +6289,7 @@
     "date": "2026-11-15",
     "weekday": "일",
     "season": "추수감사주일",
-    "liturgicalColor": "white",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "스바냐 1:7-18"
@@ -6431,7 +6431,7 @@
     "date": "2026-11-23",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 7"
@@ -6448,7 +6448,7 @@
     "date": "2026-11-24",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 7"
@@ -6465,7 +6465,7 @@
     "date": "2026-11-25",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
+    "liturgicalColor": "green",
     "items": [
       {
         "ref": "시편 7"
