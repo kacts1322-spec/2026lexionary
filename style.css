@@ -263,7 +263,7 @@ header h1 {
     height: 7px;
     border-radius: 50%;
     position: absolute;
-    bottom: 8px;
+    bottom: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
