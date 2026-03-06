@@ -2854,7 +2854,7 @@
   {
     "date": "2026-05-03",
     "weekday": "일",
-    "season": "어린이주일",
+    "season": "부활절 다섯째주일/어린이주일",
     "liturgicalColor": "white",
     "items": [
       {
@@ -2979,7 +2979,7 @@
   {
     "date": "2026-05-10",
     "weekday": "일",
-    "season": "어버이주일",
+    "season": "부활절 여섯째주일/어버이주일",
     "liturgicalColor": "white",
     "items": [
       {
@@ -3104,7 +3104,7 @@
   {
     "date": "2026-05-17",
     "weekday": "일",
-    "season": "청년주일",
+    "season": "부활절 일곱째주일/청년주일",
     "liturgicalColor": "white",
     "items": [
       {
@@ -3473,7 +3473,7 @@
   {
     "date": "2026-06-07",
     "weekday": "일",
-    "season": "환경주일",
+    "season": "성령강림후 제2주일/환경주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -3604,7 +3604,7 @@
   {
     "date": "2026-06-14",
     "weekday": "일",
-    "season": "순교·순직기념",
+    "season": "성령강림후 제3주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -3726,7 +3726,7 @@
   {
     "date": "2026-06-21",
     "weekday": "일",
-    "season": "군선교주일",
+    "season": "성령강림후 제4주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -3848,7 +3848,7 @@
   {
     "date": "2026-06-28",
     "weekday": "일",
-    "season": "북한선교주일",
+    "season": "성령강림후 제5주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -3970,7 +3970,7 @@
   {
     "date": "2026-07-05",
     "weekday": "일",
-    "season": "맥추감사주일",
+    "season": "성령강림후 제6주일/맥추감사주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4092,7 +4092,7 @@
   {
     "date": "2026-07-12",
     "weekday": "일",
-    "season": "성령강림 후 7주",
+    "season": "성령강림후 제7주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4214,7 +4214,7 @@
   {
     "date": "2026-07-19",
     "weekday": "일",
-    "season": "성령강림 후 8주",
+    "season": "성령강림후 제8주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4336,7 +4336,7 @@
   {
     "date": "2026-07-26",
     "weekday": "일",
-    "season": "성령강림 후 9주",
+    "season": "성령강림후 제9주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4458,7 +4458,7 @@
   {
     "date": "2026-08-02",
     "weekday": "일",
-    "season": "이단경계주일",
+    "season": "성령강림후 제10주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4580,7 +4580,7 @@
   {
     "date": "2026-08-09",
     "weekday": "일",
-    "season": "광복기념주일",
+    "season": "성령강림후 제11주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4702,7 +4702,7 @@
   {
     "date": "2026-08-16",
     "weekday": "일",
-    "season": "성령강림 후 12주",
+    "season": "성령강림후 제12주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4824,7 +4824,7 @@
   {
     "date": "2026-08-23",
     "weekday": "일",
-    "season": "성령강림 후 13주",
+    "season": "성령강림후 제13주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -4946,7 +4946,7 @@
   {
     "date": "2026-08-30",
     "weekday": "일",
-    "season": "성령강림 후 14주",
+    "season": "성령강림후 제14주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5068,7 +5068,7 @@
   {
     "date": "2026-09-06",
     "weekday": "일",
-    "season": "창조절 첫째 주일",
+    "season": "성령강림후 제15주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5190,7 +5190,7 @@
   {
     "date": "2026-09-13",
     "weekday": "일",
-    "season": "총회주일",
+    "season": "성령강림후 제16주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5312,7 +5312,7 @@
   {
     "date": "2026-09-20",
     "weekday": "일",
-    "season": "외국인선교주일",
+    "season": "성령강림후 제17주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5434,7 +5434,7 @@
   {
     "date": "2026-09-27",
     "weekday": "일",
-    "season": "단군상대책기도",
+    "season": "성령강림후 제18주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5556,7 +5556,7 @@
   {
     "date": "2026-10-04",
     "weekday": "일",
-    "season": "신학교주일",
+    "season": "성령강림후 제19주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5678,7 +5678,7 @@
   {
     "date": "2026-10-11",
     "weekday": "일",
-    "season": "직장선교주일",
+    "season": "성령강림후 제20주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5800,7 +5800,7 @@
   {
     "date": "2026-10-18",
     "weekday": "일",
-    "season": "세계교회일치",
+    "season": "성령강림후 제21주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -5922,7 +5922,7 @@
   {
     "date": "2026-10-25",
     "weekday": "일",
-    "season": "종교개혁주일",
+    "season": "성령강림후 제22주일/종교개혁주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -6044,7 +6044,7 @@
   {
     "date": "2026-11-01",
     "weekday": "일",
-    "season": "학원선교주일",
+    "season": "성령강림후 제23주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -6166,7 +6166,7 @@
   {
     "date": "2026-11-08",
     "weekday": "일",
-    "season": "경찰교정선교",
+    "season": "성령강림후 제24주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -6288,7 +6288,7 @@
   {
     "date": "2026-11-15",
     "weekday": "일",
-    "season": "추수감사주일",
+    "season": "성령강림후 제25주일",
     "liturgicalColor": "green",
     "items": [
       {
@@ -6654,7 +6654,7 @@
   {
     "date": "2026-12-06",
     "weekday": "일",
-    "season": "인권주일",
+    "season": "대림절 둘째 주일/인권주일",
     "liturgicalColor": "purple",
     "items": [
       {
@@ -6776,7 +6776,7 @@
   {
     "date": "2026-12-13",
     "weekday": "일",
-    "season": "성서주일",
+    "season": "대림절 셋째 주일/성서주일",
     "liturgicalColor": "purple",
     "items": [
       {
