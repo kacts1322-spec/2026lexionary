@@ -1,21 +1,619 @@
 [
   {
-    "date": "2026-01-01",
+    "date": "2025-11-30",
+    "weekday": "일",
+    "season": "대림절 첫째 주일",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 2:1-5"
+      },
+      {
+        "ref": "시편 122"
+      },
+      {
+        "ref": "로마서 13:11-14"
+      },
+      {
+        "ref": "마태복음 24:36-44"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-01",
+    "weekday": "월",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 124"
+      },
+      {
+        "ref": "창세기 8:1-19"
+      },
+      {
+        "ref": "로마서 6:1-11"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-02",
+    "weekday": "화",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 124"
+      },
+      {
+        "ref": "창세기 9:1-17"
+      },
+      {
+        "ref": "히브리서 11:32-40"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-03",
+    "weekday": "수",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 124"
+      },
+      {
+        "ref": "이사야 54:1-10"
+      },
+      {
+        "ref": "마태복음 24:23-35"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-04",
     "weekday": "목",
-    "season": "새해",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 72:1-7"
+      },
+      {
+        "ref": "시편 72:18-19"
+      },
+      {
+        "ref": "이사야 4:2-6"
+      },
+      {
+        "ref": "사도행전 1:12-17"
+      },
+      {
+        "ref": "사도행전 1:21-26"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-05",
+    "weekday": "금",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 72:1-7"
+      },
+      {
+        "ref": "시편 72:18-19"
+      },
+      {
+        "ref": "이사야 30:19-26"
+      },
+      {
+        "ref": "사도행전 13:16-25"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-06",
+    "weekday": "토",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 72:1-7"
+      },
+      {
+        "ref": "시편 72:18-19"
+      },
+      {
+        "ref": "이사야 40:1-11"
+      },
+      {
+        "ref": "요한복음 1:19-28"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-07",
+    "weekday": "일",
+    "season": "대림절 둘째 주일",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 11:1-10"
+      },
+      {
+        "ref": "시편 72:1-7"
+      },
+      {
+        "ref": "시편 72:18-19"
+      },
+      {
+        "ref": "로마서 15:4-13"
+      },
+      {
+        "ref": "마태복음 3:1-12"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-08",
+    "weekday": "월",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 21"
+      },
+      {
+        "ref": "이사야 24:1-16"
+      },
+      {
+        "ref": "데살로니가전서 4:1-12"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-09",
+    "weekday": "화",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 21"
+      },
+      {
+        "ref": "이사야 41:14-20"
+      },
+      {
+        "ref": "로마서 15:14-21"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-10",
+    "weekday": "수",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 21"
+      },
+      {
+        "ref": "창세기 15:1-18"
+      },
+      {
+        "ref": "마태복음 12:33-37"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-11",
+    "weekday": "목",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 146:5-10"
+      },
+      {
+        "ref": "이사야 1:6-18"
+      },
+      {
+        "ref": "베드로후서 3:1-10"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-12",
+    "weekday": "금",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 146:5-10"
+      },
+      {
+        "ref": "이사야 4:13-17"
+      },
+      {
+        "ref": "베드로후서 3:11-18"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-13",
+    "weekday": "토",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 146:5-10"
+      },
+      {
+        "ref": "사무엘상 2:1-8"
+      },
+      {
+        "ref": "누가복음 3:1-18"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-14",
+    "weekday": "일",
+    "season": "대림절 셋째 주일",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 35:1-10"
+      },
+      {
+        "ref": "시편 146:5-10"
+      },
+      {
+        "ref": "야고보서 5:7-10"
+      },
+      {
+        "ref": "마태복음 11:2-11"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-15",
+    "weekday": "월",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 42"
+      },
+      {
+        "ref": "이사야 29:17-24"
+      },
+      {
+        "ref": "사도행전 5:12-16"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-16",
+    "weekday": "화",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 42"
+      },
+      {
+        "ref": "에스겔 47:1-12"
+      },
+      {
+        "ref": "유다서 1:17-25"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-17",
+    "weekday": "수",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 42"
+      },
+      {
+        "ref": "스가랴 8:1-17"
+      },
+      {
+        "ref": "마태복음 8:14-17"
+      },
+      {
+        "ref": "마태복음 8:28-34"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-18",
+    "weekday": "목",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 80:1-7"
+      },
+      {
+        "ref": "시편 80:17-19"
+      },
+      {
+        "ref": "사무엘하 7:1-17"
+      },
+      {
+        "ref": "갈라디아서 3:23-29"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-19",
+    "weekday": "금",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 80:1-7"
+      },
+      {
+        "ref": "시편 80:17-19"
+      },
+      {
+        "ref": "사무엘하 7:18-22"
+      },
+      {
+        "ref": "갈라디아서 4:1-7"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-20",
+    "weekday": "토",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 80:1-7"
+      },
+      {
+        "ref": "시편 80:17-19"
+      },
+      {
+        "ref": "사무엘하 7:23-29"
+      },
+      {
+        "ref": "요한복음 3:31-36"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-21",
+    "weekday": "일",
+    "season": "대림절 넷째 주일",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 7:10-16"
+      },
+      {
+        "ref": "시편 80:1-7"
+      },
+      {
+        "ref": "시편 80:17-19"
+      },
+      {
+        "ref": "로마서 1:1-7"
+      },
+      {
+        "ref": "마태복음 1:18-25"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-22",
+    "weekday": "월",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "누가복음 1:46-55"
+      },
+      {
+        "ref": "이사야 33:17-22"
+      },
+      {
+        "ref": "요한계시록 22:6-7"
+      },
+      {
+        "ref": "요한계시록 22:18-20"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-23",
+    "weekday": "화",
+    "season": "",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "누가복음 1:46-55"
+      },
+      {
+        "ref": "사무엘하 7:18"
+      },
+      {
+        "ref": "사무엘하 7:23-29"
+      },
+      {
+        "ref": "갈라디아서 3:6-14"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-24",
+    "weekday": "수",
+    "season": "성탄 전야",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 9:2-7"
+      },
+      {
+        "ref": "시편 96"
+      },
+      {
+        "ref": "디도서 2:11-14"
+      },
+      {
+        "ref": "누가복음 2:1-14"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-25",
+    "weekday": "목",
+    "season": "성탄절",
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "전 3:1-13"
+        "ref": "이사야 62:6-12"
       },
       {
-        "ref": "시 8"
+        "ref": "시편 97"
       },
       {
-        "ref": "계 21:1-6a"
+        "ref": "디도서 3:4-7"
       },
       {
-        "ref": "마 25:31-46"
+        "ref": "누가복음 2:8-20"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-26",
+    "weekday": "금",
+    "season": "",
+    "liturgicalColor": "white",
+    "items": [
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "사도행전 7:59-8"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-27",
+    "weekday": "토",
+    "season": "",
+    "liturgicalColor": "white",
+    "items": [
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "잠언 8:22-31"
+      },
+      {
+        "ref": "요한일서 5:1-12"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-28",
+    "weekday": "일",
+    "season": "성탄절 후 첫째 주일",
+    "liturgicalColor": "white",
+    "items": [
+      {
+        "ref": "이사야 63:7-9"
+      },
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "히브리서 2:10-18"
+      },
+      {
+        "ref": "마태복음 2:13-23"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-29",
+    "weekday": "월",
+    "season": "",
+    "liturgicalColor": "white",
+    "items": [
+      {
+        "ref": "시편 20"
+      },
+      {
+        "ref": "예레미야 31:15-22"
+      },
+      {
+        "ref": "누가복음 19:41-44"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-30",
+    "weekday": "화",
+    "season": "",
+    "liturgicalColor": "white",
+    "items": [
+      {
+        "ref": "시편 20"
+      },
+      {
+        "ref": "이사야 26:1-9"
+      },
+      {
+        "ref": "고린도후서 4:16-18"
+      }
+    ]
+  },
+  {
+    "date": "2025-12-31",
+    "weekday": "수",
+    "season": "송구영신",
+    "liturgicalColor": "white",
+    "items": [
+      {
+        "ref": "시편 20"
+      },
+      {
+        "ref": "열왕기상 3:5-14"
+      },
+      {
+        "ref": "요한복음 8:12-19"
+      }
+    ]
+  },
+  {
+    "date": "2026-01-01",
+    "weekday": "목",
+    "season": "새해 / 신년",
+    "liturgicalColor": "white",
+    "items": [
+      {
+        "ref": "전도서 3:1-13"
+      },
+      {
+        "ref": "시편 8"
+      },
+      {
+        "ref": "요한계시록 21:1-6"
+      },
+      {
+        "ref": "마태복음 25:31-46"
       }
     ]
   },
@@ -24,32 +622,52 @@
     "weekday": "금",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 20"
+      },
+      {
+        "ref": "창세기 12:1-7"
+      },
+      {
+        "ref": "히브리서 11:1-12"
+      }
+    ]
   },
   {
     "date": "2026-01-03",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 72"
+      },
+      {
+        "ref": "창세기 28:10-22"
+      },
+      {
+        "ref": "히브리서 11:13-22"
+      }
+    ]
   },
   {
     "date": "2026-01-04",
     "weekday": "일",
-    "season": "성탄절 후 둘째 주일",
+    "season": "성탄 후 둘째 / 신년주일",
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "렘 31:7-14"
+        "ref": "예레미야 31:7-14"
       },
       {
-        "ref": "시 147:12-20"
+        "ref": "시편 147:12-20"
       },
       {
         "ref": "에베소서 1:3-14"
       },
       {
-        "ref": "요 1:1-18"
+        "ref": "요한복음 1:10-18"
       }
     ]
   },
@@ -58,42 +676,108 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 72"
+      },
+      {
+        "ref": "여호수아 1:1-9"
+      },
+      {
+        "ref": "히브리서 11:32-12"
+      }
+    ]
   },
   {
     "date": "2026-01-06",
     "weekday": "화",
-    "season": "",
+    "season": "주현절",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "이사야 60:1-6"
+      },
+      {
+        "ref": "시편 72:1-7"
+      },
+      {
+        "ref": "시편 72:10-14"
+      },
+      {
+        "ref": "에베소서 3:1-12"
+      },
+      {
+        "ref": "마태복음 2:1-12"
+      }
+    ]
   },
   {
     "date": "2026-01-07",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 72"
+      },
+      {
+        "ref": "열왕기상 10:1-13"
+      },
+      {
+        "ref": "에베소서 3:14-21"
+      }
+    ]
   },
   {
     "date": "2026-01-08",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 29"
+      },
+      {
+        "ref": "사무엘상 3:1-9"
+      },
+      {
+        "ref": "사도행전 9:1-9"
+      }
+    ]
   },
   {
     "date": "2026-01-09",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 29"
+      },
+      {
+        "ref": "사무엘상 3:10-4"
+      },
+      {
+        "ref": "사도행전 9:10-19"
+      }
+    ]
   },
   {
     "date": "2026-01-10",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 29"
+      },
+      {
+        "ref": "사무엘상 7:3-17"
+      },
+      {
+        "ref": "사도행전 9:19-31"
+      }
+    ]
   },
   {
     "date": "2026-01-11",
@@ -102,16 +786,16 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "사 42:1-9"
+        "ref": "이사야 42:1-9"
       },
       {
-        "ref": "시 29"
+        "ref": "시편 29"
       },
       {
-        "ref": "행 10:34-43"
+        "ref": "사도행전 10:34-43"
       },
       {
-        "ref": "마 3:13-17"
+        "ref": "마태복음 3:13-17"
       }
     ]
   },
@@ -119,61 +803,121 @@
     "date": "2026-01-12",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 89:5-37"
+      },
+      {
+        "ref": "창세기 35:1-15"
+      },
+      {
+        "ref": "사도행전 10:44-48"
+      }
+    ]
   },
   {
     "date": "2026-01-13",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 89:5-37"
+      },
+      {
+        "ref": "예레미야 1:4-10"
+      },
+      {
+        "ref": "사도행전 8:4-13"
+      }
+    ]
   },
   {
     "date": "2026-01-14",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 89:5-37"
+      },
+      {
+        "ref": "이사야 51:1-16"
+      },
+      {
+        "ref": "마태복음 12:15-21"
+      }
+    ]
   },
   {
     "date": "2026-01-15",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:1-11"
+      },
+      {
+        "ref": "이사야 22:15-25"
+      },
+      {
+        "ref": "갈라디아서 1:6-12"
+      }
+    ]
   },
   {
     "date": "2026-01-16",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:1-11"
+      },
+      {
+        "ref": "창세기 27:30-38"
+      },
+      {
+        "ref": "사도행전 1:1-5"
+      }
+    ]
   },
   {
     "date": "2026-01-17",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:1-11"
+      },
+      {
+        "ref": "열왕기상 19:19-21"
+      },
+      {
+        "ref": "누가복음 5:1-11"
+      }
+    ]
   },
   {
     "date": "2026-01-18",
     "weekday": "일",
-    "season": "주현절 후 둘째 주일",
+    "season": "주현 후 둘째 주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사 49:1-7"
+        "ref": "이사야 49:1-7"
       },
       {
-        "ref": "시 40:1-11"
+        "ref": "시편 40:1-11"
       },
       {
-        "ref": "고전 1:1-9"
+        "ref": "고린도전서 1:1-9"
       },
       {
-        "ref": "요 1:29-42"
+        "ref": "요한복음 1:29-42"
       }
     ]
   },
@@ -181,61 +925,127 @@
     "date": "2026-01-19",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:6-17"
+      },
+      {
+        "ref": "출애굽기 12:1-13"
+      },
+      {
+        "ref": "출애굽기 12:21-28"
+      },
+      {
+        "ref": "사도행전 8:26-40"
+      }
+    ]
   },
   {
     "date": "2026-01-20",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:6-17"
+      },
+      {
+        "ref": "이사야 53:1-12"
+      },
+      {
+        "ref": "히브리서 10:1-4"
+      }
+    ]
   },
   {
     "date": "2026-01-21",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:6-17"
+      },
+      {
+        "ref": "이사야 48:12-21"
+      },
+      {
+        "ref": "마태복음 9:14-17"
+      }
+    ]
   },
   {
     "date": "2026-01-22",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 27:1-6"
+      },
+      {
+        "ref": "사무엘상 1:1-20"
+      },
+      {
+        "ref": "갈라디아서 1:11-24"
+      }
+    ]
   },
   {
     "date": "2026-01-23",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 27:1-6"
+      },
+      {
+        "ref": "사무엘상 9:27-10"
+      },
+      {
+        "ref": "갈라디아서 2:1-10"
+      }
+    ]
   },
   {
     "date": "2026-01-24",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 27:1-6"
+      },
+      {
+        "ref": "사무엘상 15:34-16"
+      },
+      {
+        "ref": "누가복음 5:27-32"
+      }
+    ]
   },
   {
     "date": "2026-01-25",
     "weekday": "일",
-    "season": "주현절 후 셋째 주일",
+    "season": "주현 후 셋째 주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사 9:1-4"
+        "ref": "이사야 9:1-4"
       },
       {
-        "ref": "시 27:1-9"
+        "ref": "시편 27:1"
       },
       {
-        "ref": "고전 1:10-18"
+        "ref": "시편 27:4-9"
       },
       {
-        "ref": "마 4:12-23"
+        "ref": "고린도전서 1:10-18"
+      },
+      {
+        "ref": "마태복음 4:12-23"
       }
     ]
   },
@@ -243,61 +1053,127 @@
     "date": "2026-01-26",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 27:7-14"
+      },
+      {
+        "ref": "사사기 6:11-24"
+      },
+      {
+        "ref": "에베소서 5:6-14"
+      }
+    ]
   },
   {
     "date": "2026-01-27",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 27:7-14"
+      },
+      {
+        "ref": "사사기 7:12-22"
+      },
+      {
+        "ref": "빌립보서 2:12-18"
+      }
+    ]
   },
   {
     "date": "2026-01-28",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 27:7-14"
+      },
+      {
+        "ref": "창세기 49:1-2"
+      },
+      {
+        "ref": "창세기 49:8-13"
+      },
+      {
+        "ref": "창세기 49:21-26"
+      },
+      {
+        "ref": "누가복음 1:67-79"
+      }
+    ]
   },
   {
     "date": "2026-01-29",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 15"
+      },
+      {
+        "ref": "신명기 16:18-20"
+      },
+      {
+        "ref": "베드로전서 3:8-12"
+      }
+    ]
   },
   {
     "date": "2026-01-30",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 15"
+      },
+      {
+        "ref": "신명기 24:17-25"
+      },
+      {
+        "ref": "디모데전서 5:17-24"
+      }
+    ]
   },
   {
     "date": "2026-01-31",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 15"
+      },
+      {
+        "ref": "미가 3:1-4"
+      },
+      {
+        "ref": "요한복음 13:31-35"
+      }
+    ]
   },
   {
     "date": "2026-02-01",
     "weekday": "일",
-    "season": "주현절 후 넷째 주일",
+    "season": "주현 후 넷째 주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "미 6:1-8"
+        "ref": "미가 6:1-8"
       },
       {
-        "ref": "시 15"
+        "ref": "시편 15"
       },
       {
-        "ref": "고전 1:18-31"
+        "ref": "고린도전서 1:18-31"
       },
       {
-        "ref": "마 5:1-12"
+        "ref": "마태복음 5:1-12"
       }
     ]
   },
@@ -305,61 +1181,124 @@
     "date": "2026-02-02",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 37:1-17"
+      },
+      {
+        "ref": "룻기 1:1-18"
+      },
+      {
+        "ref": "빌레몬서 1:1-25"
+      }
+    ]
   },
   {
     "date": "2026-02-03",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 37:1-17"
+      },
+      {
+        "ref": "룻기 2:1-16"
+      },
+      {
+        "ref": "야고보서 5:1-6"
+      }
+    ]
   },
   {
     "date": "2026-02-04",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 37:1-17"
+      },
+      {
+        "ref": "룻기 3:1-13"
+      },
+      {
+        "ref": "룻기 4:13-22"
+      },
+      {
+        "ref": "누가복음 6:17-26"
+      }
+    ]
   },
   {
     "date": "2026-02-05",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 112:1-9"
+      },
+      {
+        "ref": "신명기 4:1-14"
+      },
+      {
+        "ref": "요한일서 5:1-5"
+      }
+    ]
   },
   {
     "date": "2026-02-06",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 112:1-9"
+      },
+      {
+        "ref": "이사야 29:1-12"
+      },
+      {
+        "ref": "야고보서 3:13-18"
+      }
+    ]
   },
   {
     "date": "2026-02-07",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 112:1-9"
+      },
+      {
+        "ref": "이사야 29:13-16"
+      },
+      {
+        "ref": "마가복음 7:1-8"
+      }
+    ]
   },
   {
     "date": "2026-02-08",
     "weekday": "일",
-    "season": "주현절 후 다섯째 주일",
+    "season": "주현 후 다섯째 주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사 58:1-12"
+        "ref": "이사야 58:1-9"
       },
       {
-        "ref": "시 112:1-10"
+        "ref": "시편 112:1-9"
       },
       {
-        "ref": "고전 2:1-16"
+        "ref": "고린도전서 2:1-12"
       },
       {
-        "ref": "마 5:13-20"
+        "ref": "마태복음 5:13-20"
       }
     ]
   },
@@ -367,43 +1306,106 @@
     "date": "2026-02-09",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:105-112"
+      },
+      {
+        "ref": "열왕기하 22:3-20"
+      },
+      {
+        "ref": "로마서 11:2-10"
+      }
+    ]
   },
   {
     "date": "2026-02-10",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:105-112"
+      },
+      {
+        "ref": "열왕기하 23:1-8"
+      },
+      {
+        "ref": "열왕기하 23:21-25"
+      },
+      {
+        "ref": "고린도후서 4:1-12"
+      }
+    ]
   },
   {
     "date": "2026-02-11",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:105-112"
+      },
+      {
+        "ref": "잠언 6:6-23"
+      },
+      {
+        "ref": "요한복음 8:12-30"
+      }
+    ]
   },
   {
     "date": "2026-02-12",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 2"
+      },
+      {
+        "ref": "출애굽기 6:2-9"
+      },
+      {
+        "ref": "히브리서 8:1-7"
+      }
+    ]
   },
   {
     "date": "2026-02-13",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 2"
+      },
+      {
+        "ref": "출애굽기 19:9-25"
+      },
+      {
+        "ref": "히브리서 11:23-28"
+      }
+    ]
   },
   {
     "date": "2026-02-14",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 2"
+      },
+      {
+        "ref": "열왕기상 21:20-29"
+      },
+      {
+        "ref": "마가복음 9:9-13"
+      }
+    ]
   },
   {
     "date": "2026-02-15",
@@ -412,16 +1414,16 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "출 24:12-18"
+        "ref": "출애굽기 24:12-18"
       },
       {
-        "ref": "시 2"
+        "ref": "시편 99"
       },
       {
-        "ref": "벧후 1:16-21"
+        "ref": "베드로후서 1:16-21"
       },
       {
-        "ref": "마 17:1-9"
+        "ref": "마태복음 17:1-9"
       }
     ]
   },
@@ -429,15 +1431,41 @@
     "date": "2026-02-16",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 78:17-20"
+      },
+      {
+        "ref": "시편 78:52-55"
+      },
+      {
+        "ref": "출애굽기 33:7-23"
+      },
+      {
+        "ref": "사도행전 7:30-34"
+      }
+    ]
   },
   {
     "date": "2026-02-17",
     "weekday": "화",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "설날",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 78:17-20"
+      },
+      {
+        "ref": "시편 78:52-55"
+      },
+      {
+        "ref": "열왕기상 19:9-18"
+      },
+      {
+        "ref": "히브리서 11:1-6"
+      }
+    ]
   },
   {
     "date": "2026-02-18",
@@ -446,16 +1474,22 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "욜 2:1-17"
+        "ref": "요엘 2:1-2"
       },
       {
-        "ref": "시 51:1-17"
+        "ref": "요엘 2:12-17"
       },
       {
-        "ref": "고후 5:20b-6:10"
+        "ref": "시편 51:1-17"
       },
       {
-        "ref": "마 6:1-21"
+        "ref": "고린도후서 5:20-6"
+      },
+      {
+        "ref": "마태복음 6:1-6"
+      },
+      {
+        "ref": "마태복음 6:16-21"
       }
     ]
   },
@@ -463,22 +1497,52 @@
     "date": "2026-02-19",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 51"
+      },
+      {
+        "ref": "요나 3:1-10"
+      },
+      {
+        "ref": "로마서 1:1-7"
+      }
+    ]
   },
   {
     "date": "2026-02-20",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 51"
+      },
+      {
+        "ref": "요나 4:1-11"
+      },
+      {
+        "ref": "로마서 1:8-17"
+      }
+    ]
   },
   {
     "date": "2026-02-21",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 51"
+      },
+      {
+        "ref": "이사야 58:1-12"
+      },
+      {
+        "ref": "마태복음 18:1-7"
+      }
+    ]
   },
   {
     "date": "2026-02-22",
@@ -487,16 +1551,19 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "창 2:15-3:7"
+        "ref": "창세기 2:15-17"
       },
       {
-        "ref": "시 32"
+        "ref": "창세기 3:1-7"
       },
       {
-        "ref": "롬 5:12-19"
+        "ref": "시편 32"
       },
       {
-        "ref": "마 4:1-11"
+        "ref": "로마서 5:12-19"
+      },
+      {
+        "ref": "마태복음 4:1-11"
       }
     ]
   },
@@ -504,43 +1571,106 @@
     "date": "2026-02-23",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 32"
+      },
+      {
+        "ref": "열왕기상 19:1-8"
+      },
+      {
+        "ref": "히브리서 2:10-18"
+      }
+    ]
   },
   {
     "date": "2026-02-24",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 32"
+      },
+      {
+        "ref": "창세기 4:1-16"
+      },
+      {
+        "ref": "히브리서 4:14-5"
+      }
+    ]
   },
   {
     "date": "2026-02-25",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 32"
+      },
+      {
+        "ref": "출애굽기 34:1-9"
+      },
+      {
+        "ref": "출애굽기 34:27-28"
+      },
+      {
+        "ref": "마태복음 18:10-14"
+      }
+    ]
   },
   {
     "date": "2026-02-26",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 121"
+      },
+      {
+        "ref": "이사야 51:1-3"
+      },
+      {
+        "ref": "디모데후서 1:3-7"
+      }
+    ]
   },
   {
     "date": "2026-02-27",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 121"
+      },
+      {
+        "ref": "미가 7:18-20"
+      },
+      {
+        "ref": "로마서 3:21-31"
+      }
+    ]
   },
   {
     "date": "2026-02-28",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 121"
+      },
+      {
+        "ref": "이사야 51:4-8"
+      },
+      {
+        "ref": "누가복음 7:1-10"
+      }
+    ]
   },
   {
     "date": "2026-03-01",
@@ -549,16 +1679,19 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "창 12:1-4a"
+        "ref": "창세기 12:1-4"
       },
       {
-        "ref": "시 121"
+        "ref": "시편 121"
       },
       {
-        "ref": "롬 4:1-17"
+        "ref": "로마서 4:1-5"
       },
       {
-        "ref": "요 3:1-17"
+        "ref": "로마서 4:13-17"
+      },
+      {
+        "ref": "요한복음 3:1-17"
       }
     ]
   },
@@ -566,43 +1699,103 @@
     "date": "2026-03-02",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 128"
+      },
+      {
+        "ref": "민수기 21:4-9"
+      },
+      {
+        "ref": "히브리서 3:1-6"
+      }
+    ]
   },
   {
     "date": "2026-03-03",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 128"
+      },
+      {
+        "ref": "에스겔 36:22-32"
+      },
+      {
+        "ref": "로마서 4:6-13"
+      }
+    ]
   },
   {
     "date": "2026-03-04",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 128"
+      },
+      {
+        "ref": "이사야 65:17-25"
+      },
+      {
+        "ref": "요한복음 7:53-8"
+      }
+    ]
   },
   {
     "date": "2026-03-05",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 95"
+      },
+      {
+        "ref": "출애굽기 16:1-8"
+      },
+      {
+        "ref": "골로새서 1:15-23"
+      }
+    ]
   },
   {
     "date": "2026-03-06",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 95"
+      },
+      {
+        "ref": "출애굽기 16:9-21"
+      },
+      {
+        "ref": "에베소서 2:11-22"
+      }
+    ]
   },
   {
     "date": "2026-03-07",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 95"
+      },
+      {
+        "ref": "출애굽기 16:27-35"
+      },
+      {
+        "ref": "요한복음 4:1-6"
+      }
+    ]
   },
   {
     "date": "2026-03-08",
@@ -611,16 +1804,16 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "출 17:1-7"
+        "ref": "출애굽기 17:1-7"
       },
       {
-        "ref": "시 95"
+        "ref": "시편 95"
       },
       {
-        "ref": "롬 5:1-11"
+        "ref": "로마서 5:1-11"
       },
       {
-        "ref": "요 4:5-42"
+        "ref": "요한복음 4:5-42"
       }
     ]
   },
@@ -628,43 +1821,106 @@
     "date": "2026-03-09",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 81"
+      },
+      {
+        "ref": "창세기 24:1-27"
+      },
+      {
+        "ref": "고린도전서 10:1-4"
+      }
+    ]
   },
   {
     "date": "2026-03-10",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 81"
+      },
+      {
+        "ref": "창세기 29:1-14"
+      },
+      {
+        "ref": "에베소서 5:1-9"
+      }
+    ]
   },
   {
     "date": "2026-03-11",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 81"
+      },
+      {
+        "ref": "예레미야 2:4-13"
+      },
+      {
+        "ref": "요한복음 7:14-31"
+      },
+      {
+        "ref": "요한복음 7:37-39"
+      }
+    ]
   },
   {
     "date": "2026-03-12",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "사무엘상 15:10-21"
+      },
+      {
+        "ref": "에베소서 4:25-32"
+      }
+    ]
   },
   {
     "date": "2026-03-13",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "사무엘상 15:22-31"
+      },
+      {
+        "ref": "에베소서 5:1-9"
+      }
+    ]
   },
   {
     "date": "2026-03-14",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "사무엘상 15:32-34"
+      },
+      {
+        "ref": "요한복음 1:1-9"
+      }
+    ]
   },
   {
     "date": "2026-03-15",
@@ -673,16 +1929,16 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "삼상 16:1-13"
+        "ref": "사무엘상 16:1-13"
       },
       {
-        "ref": "시 23"
+        "ref": "시편 23"
       },
       {
         "ref": "에베소서 5:8-14"
       },
       {
-        "ref": "요 9:1-41"
+        "ref": "요한복음 9:1-41"
       }
     ]
   },
@@ -690,43 +1946,106 @@
     "date": "2026-03-16",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 146"
+      },
+      {
+        "ref": "이사야 59:9-19"
+      },
+      {
+        "ref": "사도행전 9:1-20"
+      }
+    ]
   },
   {
     "date": "2026-03-17",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 146"
+      },
+      {
+        "ref": "이사야 42:14-21"
+      },
+      {
+        "ref": "골로새서 1:9-14"
+      }
+    ]
   },
   {
     "date": "2026-03-18",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 146"
+      },
+      {
+        "ref": "이사야 60:17-22"
+      },
+      {
+        "ref": "마태복음 9:27-34"
+      }
+    ]
   },
   {
     "date": "2026-03-19",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 130"
+      },
+      {
+        "ref": "에스겔 1:1-3"
+      },
+      {
+        "ref": "에스겔 2:8-3"
+      },
+      {
+        "ref": "요한계시록 10:1-11"
+      }
+    ]
   },
   {
     "date": "2026-03-20",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 130"
+      },
+      {
+        "ref": "에스겔 33:10-16"
+      },
+      {
+        "ref": "요한계시록 11:15-19"
+      }
+    ]
   },
   {
     "date": "2026-03-21",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 130"
+      },
+      {
+        "ref": "에스겔 36:8-15"
+      },
+      {
+        "ref": "누가복음 24:44-53"
+      }
+    ]
   },
   {
     "date": "2026-03-22",
@@ -735,16 +2054,16 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "겔 37:1-14"
+        "ref": "에스겔 37:1-14"
       },
       {
-        "ref": "시 130"
+        "ref": "시편 130"
       },
       {
-        "ref": "롬 8:6-11"
+        "ref": "로마서 8:6-11"
       },
       {
-        "ref": "요 11:1-45"
+        "ref": "요한복음 11:1-45"
       }
     ]
   },
@@ -752,105 +2071,252 @@
     "date": "2026-03-23",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 143"
+      },
+      {
+        "ref": "열왕기하 4:18-37"
+      },
+      {
+        "ref": "에베소서 2:1-10"
+      }
+    ]
   },
   {
     "date": "2026-03-24",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 143"
+      },
+      {
+        "ref": "예레미야 32:1-41"
+      },
+      {
+        "ref": "마태복음 22:23-33"
+      }
+    ]
   },
   {
     "date": "2026-03-25",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 143"
+      },
+      {
+        "ref": "열왕기상 17:17-24"
+      },
+      {
+        "ref": "사도행전 20:7-12"
+      }
+    ]
   },
   {
     "date": "2026-03-26",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 31:9-16"
+      },
+      {
+        "ref": "사무엘상 16:11-13"
+      },
+      {
+        "ref": "빌립보서 1:1-11"
+      }
+    ]
   },
   {
     "date": "2026-03-27",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 31:9-16"
+      },
+      {
+        "ref": "욥기 13:13-19"
+      },
+      {
+        "ref": "빌립보서 1:21-30"
+      }
+    ]
   },
   {
     "date": "2026-03-28",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 31:9-16"
+      },
+      {
+        "ref": "예레미야애가 3:55-66"
+      },
+      {
+        "ref": "마가복음 10:32-34"
+      }
+    ]
   },
   {
     "date": "2026-03-29",
     "weekday": "일",
-    "season": "종려주일",
-    "liturgicalColor": "red",
+    "season": "종려 / 고난주일",
+    "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "사 50:4-9a"
+        "ref": "이사야 50:4-9"
       },
       {
-        "ref": "시 31:9-16"
+        "ref": "시편 31:9-16"
       },
       {
-        "ref": "빌 2:5-11"
+        "ref": "빌립보서 2:5-11"
       },
       {
-        "ref": "마 26:14-27:66"
+        "ref": "마태복음 26:14-27"
       }
     ]
   },
   {
     "date": "2026-03-30",
     "weekday": "월",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "고난주간",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 42:1-9"
+      },
+      {
+        "ref": "시편 36:5-11"
+      },
+      {
+        "ref": "히브리서 9:11-15"
+      },
+      {
+        "ref": "요한복음 12:1-11"
+      }
+    ]
   },
   {
     "date": "2026-03-31",
     "weekday": "화",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "고난주간",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 49:1-7"
+      },
+      {
+        "ref": "시편 71:1-14"
+      },
+      {
+        "ref": "고린도전서 1:18-31"
+      },
+      {
+        "ref": "요한복음 12:20-36"
+      }
+    ]
   },
   {
     "date": "2026-04-01",
     "weekday": "수",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "고난주간",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "이사야 50:4-9"
+      },
+      {
+        "ref": "시편 70"
+      },
+      {
+        "ref": "히브리서 12:1-3"
+      },
+      {
+        "ref": "요한복음 13:21-32"
+      }
+    ]
   },
   {
     "date": "2026-04-02",
     "weekday": "목",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "세족목요일",
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "출애굽기 12:1-14"
+      },
+      {
+        "ref": "시편 116:1-2"
+      },
+      {
+        "ref": "시편 116:12-19"
+      },
+      {
+        "ref": "고린도전서 11:23-26"
+      },
+      {
+        "ref": "요한복음 13:1-17"
+      },
+      {
+        "ref": "요한복음 13:31-35"
+      }
+    ]
   },
   {
     "date": "2026-04-03",
     "weekday": "금",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "성금요일",
+    "liturgicalColor": "black",
+    "items": [
+      {
+        "ref": "이사야 52:13-53"
+      },
+      {
+        "ref": "시편 22"
+      },
+      {
+        "ref": "히브리서 10:16-25"
+      },
+      {
+        "ref": "요한복음 18:1-19"
+      }
+    ]
   },
   {
     "date": "2026-04-04",
     "weekday": "토",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "성토요일",
+    "liturgicalColor": "black",
+    "items": [
+      {
+        "ref": "욥기 14:1-14"
+      },
+      {
+        "ref": "시편 31:1-4"
+      },
+      {
+        "ref": "시편 31:15-16"
+      },
+      {
+        "ref": "베드로전서 4:1-8"
+      },
+      {
+        "ref": "마태복음 27:57-66"
+      }
+    ]
   },
   {
     "date": "2026-04-05",
@@ -859,16 +2325,19 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "행 10:34-43"
+        "ref": "사도행전 10:34-43"
       },
       {
-        "ref": "시 118:1-24"
+        "ref": "시편 118:1-2"
       },
       {
-        "ref": "골 3:1-4"
+        "ref": "시편 118:14-24"
       },
       {
-        "ref": "요 20:1-18"
+        "ref": "골로새서 3:1-4"
+      },
+      {
+        "ref": "요한복음 20:1-18"
       }
     ]
   },
@@ -877,42 +2346,114 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 118:1-2"
+      },
+      {
+        "ref": "시편 118:14-24"
+      },
+      {
+        "ref": "출애굽기 14:10-31"
+      },
+      {
+        "ref": "출애굽기 15:20-21"
+      },
+      {
+        "ref": "골로새서 3:5-11"
+      }
+    ]
   },
   {
     "date": "2026-04-07",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 118:1-2"
+      },
+      {
+        "ref": "시편 118:14-24"
+      },
+      {
+        "ref": "출애굽기 15:1-18"
+      },
+      {
+        "ref": "골로새서 3:12-17"
+      }
+    ]
   },
   {
     "date": "2026-04-08",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 118:1-2"
+      },
+      {
+        "ref": "시편 118:14-24"
+      },
+      {
+        "ref": "여호수아 3:1-17"
+      },
+      {
+        "ref": "마태복음 28:1-10"
+      }
+    ]
   },
   {
     "date": "2026-04-09",
     "weekday": "목",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 16"
+      },
+      {
+        "ref": "아가 2:8-15"
+      },
+      {
+        "ref": "골로새서 4:2-5"
+      }
+    ]
   },
   {
     "date": "2026-04-10",
     "weekday": "금",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 16"
+      },
+      {
+        "ref": "아가 5:9-6"
+      },
+      {
+        "ref": "고린도전서 15:1-11"
+      }
+    ]
   },
   {
     "date": "2026-04-11",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 16"
+      },
+      {
+        "ref": "아가 8:6-7"
+      },
+      {
+        "ref": "요한복음 20:11-20"
+      }
+    ]
   },
   {
     "date": "2026-04-12",
@@ -921,16 +2462,19 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "행 2:14-32"
+        "ref": "사도행전 2:14"
       },
       {
-        "ref": "시 16"
+        "ref": "사도행전 2:22-32"
       },
       {
-        "ref": "벧전 1:3-9"
+        "ref": "시편 16"
       },
       {
-        "ref": "요 20:19-31"
+        "ref": "베드로전서 1:3-9"
+      },
+      {
+        "ref": "요한복음 20:19-31"
       }
     ]
   },
@@ -939,42 +2483,111 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 114"
+      },
+      {
+        "ref": "사사기 6:36-40"
+      },
+      {
+        "ref": "고린도전서 15:12-20"
+      }
+    ]
   },
   {
     "date": "2026-04-14",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 114"
+      },
+      {
+        "ref": "요나 1:1-17"
+      },
+      {
+        "ref": "고린도전서 15:19-28"
+      }
+    ]
   },
   {
     "date": "2026-04-15",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 114"
+      },
+      {
+        "ref": "요나 2:1-10"
+      },
+      {
+        "ref": "마태복음 12:38-42"
+      }
+    ]
   },
   {
     "date": "2026-04-16",
     "weekday": "목",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 116:1-4"
+      },
+      {
+        "ref": "시편 116:12-19"
+      },
+      {
+        "ref": "이사야 25:1-5"
+      },
+      {
+        "ref": "베드로전서 1:8-12"
+      }
+    ]
   },
   {
     "date": "2026-04-17",
     "weekday": "금",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 116:1-4"
+      },
+      {
+        "ref": "시편 116:12-19"
+      },
+      {
+        "ref": "이사야 26:1-4"
+      },
+      {
+        "ref": "베드로전서 1:13-16"
+      }
+    ]
   },
   {
     "date": "2026-04-18",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 116:1-4"
+      },
+      {
+        "ref": "시편 116:12-19"
+      },
+      {
+        "ref": "이사야 25:6-9"
+      },
+      {
+        "ref": "누가복음 14:12-14"
+      }
+    ]
   },
   {
     "date": "2026-04-19",
@@ -983,16 +2596,22 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "행 2:14-41"
+        "ref": "사도행전 2:14"
       },
       {
-        "ref": "시 116:1-19"
+        "ref": "사도행전 2:36-41"
       },
       {
-        "ref": "벧전 1:17-23"
+        "ref": "시편 116:1-4"
       },
       {
-        "ref": "눅 24:13-35"
+        "ref": "시편 116:12-19"
+      },
+      {
+        "ref": "베드로전서 1:17-23"
+      },
+      {
+        "ref": "누가복음 24:13-35"
       }
     ]
   },
@@ -1001,42 +2620,105 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 134"
+      },
+      {
+        "ref": "창세기 18:1-14"
+      },
+      {
+        "ref": "베드로전서 1:23-25"
+      }
+    ]
   },
   {
     "date": "2026-04-21",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 134"
+      },
+      {
+        "ref": "잠언 8:32-9"
+      },
+      {
+        "ref": "베드로전서 2:1-3"
+      }
+    ]
   },
   {
     "date": "2026-04-22",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 134"
+      },
+      {
+        "ref": "출애굽기 24:1-11"
+      },
+      {
+        "ref": "요한복음 21:1-14"
+      }
+    ]
   },
   {
     "date": "2026-04-23",
     "weekday": "목",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "출애굽기 2:15-25"
+      },
+      {
+        "ref": "베드로전서 2:9-12"
+      }
+    ]
   },
   {
     "date": "2026-04-24",
     "weekday": "금",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "출애굽기 3:16-22"
+      },
+      {
+        "ref": "출애굽기 4:18-20"
+      },
+      {
+        "ref": "베드로전서 2:13-17"
+      }
+    ]
   },
   {
     "date": "2026-04-25",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "에스겔 34:1-16"
+      },
+      {
+        "ref": "누가복음 15:1-7"
+      }
+    ]
   },
   {
     "date": "2026-04-26",
@@ -1045,16 +2727,16 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "행 2:42-47"
+        "ref": "사도행전 2:42-47"
       },
       {
-        "ref": "시 23"
+        "ref": "시편 23"
       },
       {
-        "ref": "벧전 2:19-25"
+        "ref": "베드로전서 2:19-25"
       },
       {
-        "ref": "요 10:1-10"
+        "ref": "요한복음 10:1-10"
       }
     ]
   },
@@ -1063,60 +2745,132 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 100"
+      },
+      {
+        "ref": "에스겔 34:17-23"
+      },
+      {
+        "ref": "베드로전서 5:1-5"
+      }
+    ]
   },
   {
     "date": "2026-04-28",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 100"
+      },
+      {
+        "ref": "에스겔 34:23-31"
+      },
+      {
+        "ref": "히브리서 13:20-21"
+      }
+    ]
   },
   {
     "date": "2026-04-29",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 100"
+      },
+      {
+        "ref": "예레미야 23:1-8"
+      },
+      {
+        "ref": "마태복음 20:17-28"
+      }
+    ]
   },
   {
     "date": "2026-04-30",
     "weekday": "목",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 31:1-5"
+      },
+      {
+        "ref": "시편 31:15-16"
+      },
+      {
+        "ref": "창세기 12:1-3"
+      },
+      {
+        "ref": "사도행전 6:8-15"
+      }
+    ]
   },
   {
     "date": "2026-05-01",
     "weekday": "금",
-    "season": "",
+    "season": "근로자의 날",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 31:1-5"
+      },
+      {
+        "ref": "시편 31:15-16"
+      },
+      {
+        "ref": "출애굽기 3:1-12"
+      },
+      {
+        "ref": "사도행전 7:1-16"
+      }
+    ]
   },
   {
     "date": "2026-05-02",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 31:1-5"
+      },
+      {
+        "ref": "시편 31:15-16"
+      },
+      {
+        "ref": "예레미야 26:20-24"
+      },
+      {
+        "ref": "요한복음 8:48-59"
+      }
+    ]
   },
   {
     "date": "2026-05-03",
     "weekday": "일",
-    "season": "부활절 다섯째 주일",
+    "season": "어린이주일",
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "행 7:55-60"
+        "ref": "사도행전 7:55-60"
       },
       {
-        "ref": "시 31:1-5, 15-16"
+        "ref": "시편 31:1-5"
       },
       {
-        "ref": "벧전 2:2-10"
+        "ref": "시편 31:15-16"
       },
       {
-        "ref": "요 14:1-14"
+        "ref": "베드로전서 2:2-10"
+      },
+      {
+        "ref": "요한복음 14:1-14"
       }
     ]
   },
@@ -1125,60 +2879,120 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 102:1-17"
+      },
+      {
+        "ref": "출애굽기 13:17-22"
+      },
+      {
+        "ref": "사도행전 7:17-40"
+      }
+    ]
   },
   {
     "date": "2026-05-05",
     "weekday": "화",
-    "season": "",
+    "season": "어린이 날",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 102:1-17"
+      },
+      {
+        "ref": "잠언 3:5-12"
+      },
+      {
+        "ref": "사도행전 7:44-56"
+      }
+    ]
   },
   {
     "date": "2026-05-06",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 102:1-17"
+      },
+      {
+        "ref": "잠언 3:13-18"
+      },
+      {
+        "ref": "요한복음 8:31-38"
+      }
+    ]
   },
   {
     "date": "2026-05-07",
     "weekday": "목",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 66:8-20"
+      },
+      {
+        "ref": "창세기 6:5-22"
+      },
+      {
+        "ref": "사도행전 27:1-12"
+      }
+    ]
   },
   {
     "date": "2026-05-08",
     "weekday": "금",
-    "season": "",
+    "season": "어버이 날",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 66:8-20"
+      },
+      {
+        "ref": "창세기 7:1-24"
+      },
+      {
+        "ref": "사도행전 27:13-38"
+      }
+    ]
   },
   {
     "date": "2026-05-09",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 66:8-20"
+      },
+      {
+        "ref": "창세기 8:13-19"
+      },
+      {
+        "ref": "요한복음 14:27-29"
+      }
+    ]
   },
   {
     "date": "2026-05-10",
     "weekday": "일",
-    "season": "부활절 여섯째 주일",
+    "season": "어버이주일",
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "행 17:22-31"
+        "ref": "사도행전 17:22-31"
       },
       {
-        "ref": "시 66:8-20"
+        "ref": "시편 66:8-20"
       },
       {
-        "ref": "벧전 3:13-22"
+        "ref": "베드로전서 3:13-22"
       },
       {
-        "ref": "요 14:15-21"
+        "ref": "요한복음 14:15-21"
       }
     ]
   },
@@ -1187,60 +3001,126 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 93"
+      },
+      {
+        "ref": "창세기 9:8-17"
+      },
+      {
+        "ref": "사도행전 27:39-44"
+      }
+    ]
   },
   {
     "date": "2026-05-12",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 93"
+      },
+      {
+        "ref": "신명기 5:22-33"
+      },
+      {
+        "ref": "베드로전서 3:8-12"
+      }
+    ]
   },
   {
     "date": "2026-05-13",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 93"
+      },
+      {
+        "ref": "신명기 31:1-13"
+      },
+      {
+        "ref": "요한복음 16:16-24"
+      }
+    ]
   },
   {
     "date": "2026-05-14",
     "weekday": "목",
-    "season": "",
+    "season": "주님승천일",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "사도행전 1:1-11"
+      },
+      {
+        "ref": "시편 93"
+      },
+      {
+        "ref": "에베소서 1:15-23"
+      },
+      {
+        "ref": "누가복음 24:44-53"
+      }
+    ]
   },
   {
     "date": "2026-05-15",
     "weekday": "금",
-    "season": "",
+    "season": "스승의 날",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 93"
+      },
+      {
+        "ref": "열왕기하 2:1-12"
+      },
+      {
+        "ref": "에베소서 2:1-7"
+      }
+    ]
   },
   {
     "date": "2026-05-16",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 93"
+      },
+      {
+        "ref": "열왕기하 2:13-15"
+      },
+      {
+        "ref": "요한복음 8:21-30"
+      }
+    ]
   },
   {
     "date": "2026-05-17",
     "weekday": "일",
-    "season": "부활절 일곱째 주일",
+    "season": "청년주일",
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "행 1:6-14"
+        "ref": "사도행전 1:6-14"
       },
       {
-        "ref": "시 68:1-10, 32-35"
+        "ref": "시편 68:1-35"
       },
       {
-        "ref": "벧전 4:12-14"
+        "ref": "베드로전서 4:12-14"
       },
       {
-        "ref": "요 17:1-11"
+        "ref": "베드로전서 5:6-11"
+      },
+      {
+        "ref": "요한복음 17:1-11"
       }
     ]
   },
@@ -1249,42 +3129,102 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 99"
+      },
+      {
+        "ref": "레위기 9:1-24"
+      },
+      {
+        "ref": "베드로전서 4:1-6"
+      }
+    ]
   },
   {
     "date": "2026-05-19",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 99"
+      },
+      {
+        "ref": "민수기 16:41-50"
+      },
+      {
+        "ref": "베드로전서 4:7-11"
+      }
+    ]
   },
   {
     "date": "2026-05-20",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 99"
+      },
+      {
+        "ref": "열왕기상 8:54-65"
+      },
+      {
+        "ref": "요한복음 3:31-36"
+      }
+    ]
   },
   {
     "date": "2026-05-21",
     "weekday": "목",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 33:12-22"
+      },
+      {
+        "ref": "출애굽기 19:1-11"
+      },
+      {
+        "ref": "사도행전 2:1-11"
+      }
+    ]
   },
   {
     "date": "2026-05-22",
     "weekday": "금",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 33:12-22"
+      },
+      {
+        "ref": "출애굽기 19:16-25"
+      },
+      {
+        "ref": "로마서 8:14-17"
+      }
+    ]
   },
   {
     "date": "2026-05-23",
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 33:12-22"
+      },
+      {
+        "ref": "출애굽기 20:1-21"
+      },
+      {
+        "ref": "마태복음 5:1-12"
+      }
+    ]
   },
   {
     "date": "2026-05-24",
@@ -1293,16 +3233,16 @@
     "liturgicalColor": "red",
     "items": [
       {
-        "ref": "행 2:1-21"
+        "ref": "사도행전 2:1-21"
       },
       {
-        "ref": "시 104:24-34, 35b"
+        "ref": "시편 104:24-35"
       },
       {
-        "ref": "롬 8:22-27"
+        "ref": "고린도전서 12:3-13"
       },
       {
-        "ref": "요 15:26-27, 16:4b-15"
+        "ref": "요한복음 20:19-23"
       }
     ]
   },
@@ -1310,43 +3250,103 @@
     "date": "2026-05-25",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "red",
+    "items": [
+      {
+        "ref": "시편 104:24-35"
+      },
+      {
+        "ref": "요엘 2:18-29"
+      },
+      {
+        "ref": "로마서 8:18-24"
+      }
+    ]
   },
   {
     "date": "2026-05-26",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "red",
+    "items": [
+      {
+        "ref": "시편 104:24-35"
+      },
+      {
+        "ref": "에스겔 39:7-29"
+      },
+      {
+        "ref": "로마서 8:26-27"
+      }
+    ]
   },
   {
     "date": "2026-05-27",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "red",
+    "items": [
+      {
+        "ref": "시편 104:24-35"
+      },
+      {
+        "ref": "민수기 11:24-30"
+      },
+      {
+        "ref": "요한복음 7:37-39"
+      }
+    ]
   },
   {
     "date": "2026-05-28",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "red",
+    "items": [
+      {
+        "ref": "시편 8"
+      },
+      {
+        "ref": "욥기 38:1-11"
+      },
+      {
+        "ref": "디모데후서 1:8-12"
+      }
+    ]
   },
   {
     "date": "2026-05-29",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "red",
+    "items": [
+      {
+        "ref": "시편 8"
+      },
+      {
+        "ref": "욥기 38:12-21"
+      },
+      {
+        "ref": "디모데후서 1:12-14"
+      }
+    ]
   },
   {
     "date": "2026-05-30",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "red",
+    "items": [
+      {
+        "ref": "시편 8"
+      },
+      {
+        "ref": "욥기 38:22-38"
+      },
+      {
+        "ref": "요한복음 14:15-17"
+      }
+    ]
   },
   {
     "date": "2026-05-31",
@@ -1355,16 +3355,16 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "사 6:1-8"
+        "ref": "창세기 1:1-2"
       },
       {
-        "ref": "시 29"
+        "ref": "시편 8"
       },
       {
-        "ref": "롬 8:12-17"
+        "ref": "고린도후서 13:11-13"
       },
       {
-        "ref": "요 3:1-17"
+        "ref": "마태복음 28:16-20"
       }
     ]
   },
@@ -1372,61 +3372,124 @@
     "date": "2026-06-01",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 29"
+      },
+      {
+        "ref": "욥기 38:39-39"
+      },
+      {
+        "ref": "고린도전서 12:1-3"
+      }
+    ]
   },
   {
     "date": "2026-06-02",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 29"
+      },
+      {
+        "ref": "욥기 39:13-25"
+      },
+      {
+        "ref": "고린도전서 12:4-13"
+      }
+    ]
   },
   {
     "date": "2026-06-03",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 29"
+      },
+      {
+        "ref": "욥기 39:26-40"
+      },
+      {
+        "ref": "요한복음 14:25-26"
+      }
+    ]
   },
   {
     "date": "2026-06-04",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 33:1-12"
+      },
+      {
+        "ref": "창세기 13:1-18"
+      },
+      {
+        "ref": "베드로후서 2:17-22"
+      }
+    ]
   },
   {
     "date": "2026-06-05",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 33:1-12"
+      },
+      {
+        "ref": "창세기 14:17-24"
+      },
+      {
+        "ref": "사도행전 28:1-10"
+      }
+    ]
   },
   {
     "date": "2026-06-06",
     "weekday": "토",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "현충일",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 33:1-12"
+      },
+      {
+        "ref": "창세기 15:1-20"
+      },
+      {
+        "ref": "마태복음 9:27-34"
+      }
+    ]
   },
   {
     "date": "2026-06-07",
     "weekday": "일",
-    "season": "성령강림 후 제2주일",
+    "season": "환경주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "창 3:8-15"
+        "ref": "호세아 5:15-6"
       },
       {
-        "ref": "시 130"
+        "ref": "시편 33:1-12"
       },
       {
-        "ref": "고후 4:13-5:1"
+        "ref": "로마서 4:13-25"
       },
       {
-        "ref": "막 3:20-35"
+        "ref": "마태복음 9:9-13"
+      },
+      {
+        "ref": "마태복음 9:18-26"
       }
     ]
   },
@@ -1434,61 +3497,127 @@
     "date": "2026-06-08",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:1-8"
+      },
+      {
+        "ref": "레위기 15:25-31"
+      },
+      {
+        "ref": "레위기 22:1-9"
+      },
+      {
+        "ref": "고린도후서 6:14-7"
+      }
+    ]
   },
   {
     "date": "2026-06-09",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:1-8"
+      },
+      {
+        "ref": "호세아 8:11-14"
+      },
+      {
+        "ref": "호세아 10:1-2"
+      },
+      {
+        "ref": "히브리서 13:1-16"
+      }
+    ]
   },
   {
     "date": "2026-06-10",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 40:1-8"
+      },
+      {
+        "ref": "호세아 14:1-9"
+      },
+      {
+        "ref": "마태복음 12:1-8"
+      }
+    ]
   },
   {
     "date": "2026-06-11",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 100"
+      },
+      {
+        "ref": "출애굽기 4:18-23"
+      },
+      {
+        "ref": "히브리서 3:1-6"
+      }
+    ]
   },
   {
     "date": "2026-06-12",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 100"
+      },
+      {
+        "ref": "출애굽기 4:27-31"
+      },
+      {
+        "ref": "사도행전 7:35-43"
+      }
+    ]
   },
   {
     "date": "2026-06-13",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 100"
+      },
+      {
+        "ref": "출애굽기 6:28-7"
+      },
+      {
+        "ref": "마가복음 7:1-13"
+      }
+    ]
   },
   {
     "date": "2026-06-14",
     "weekday": "일",
-    "season": "성령강림 후 제3주일",
+    "season": "순교·순직기념",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "겔 17:22-24"
+        "ref": "출애굽기 19:2-8"
       },
       {
-        "ref": "시 92:1-4, 12-15"
+        "ref": "시편 100"
       },
       {
-        "ref": "고후 5:6-17"
+        "ref": "로마서 5:1-8"
       },
       {
-        "ref": "막 4:26-34"
+        "ref": "마태복음 9:35-10"
       }
     ]
   },
@@ -1496,61 +3625,121 @@
     "date": "2026-06-15",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 105:1-45"
+      },
+      {
+        "ref": "여호수아 1:1-11"
+      },
+      {
+        "ref": "데살로니가전서 3:1-5"
+      }
+    ]
   },
   {
     "date": "2026-06-16",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 105:1-45"
+      },
+      {
+        "ref": "사무엘상 3:1-9"
+      },
+      {
+        "ref": "데살로니가후서 2:13-3"
+      }
+    ]
   },
   {
     "date": "2026-06-17",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 105:1-45"
+      },
+      {
+        "ref": "잠언 4:10-27"
+      },
+      {
+        "ref": "에베소서 6:12-19"
+      }
+    ]
   },
   {
     "date": "2026-06-18",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 86:1-10"
+      },
+      {
+        "ref": "출애굽기 12:43-49"
+      },
+      {
+        "ref": "히브리서 2:5-9"
+      }
+    ]
   },
   {
     "date": "2026-06-19",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 86:1-10"
+      },
+      {
+        "ref": "창세기 35:1-4"
+      },
+      {
+        "ref": "사도행전 5:17-26"
+      }
+    ]
   },
   {
     "date": "2026-06-20",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 86:1-10"
+      },
+      {
+        "ref": "에스겔 29:3-7"
+      },
+      {
+        "ref": "마태복음 11:53-12"
+      }
+    ]
   },
   {
     "date": "2026-06-21",
     "weekday": "일",
-    "season": "성령강림 후 제4주일",
+    "season": "군선교주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "욥기 38:1-11"
+        "ref": "예레미야 20:7-13"
       },
       {
-        "ref": "시 107:1-3, 23-32"
+        "ref": "시편 86:1-17"
       },
       {
-        "ref": "고후 6:1-13"
+        "ref": "로마서 6:1-11"
       },
       {
-        "ref": "막 4:35-41"
+        "ref": "마태복음 10:24-39"
       }
     ]
   },
@@ -1558,61 +3747,121 @@
     "date": "2026-06-22",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 6"
+      },
+      {
+        "ref": "미가 7:1-7"
+      },
+      {
+        "ref": "요한계시록 2:1-7"
+      }
+    ]
   },
   {
     "date": "2026-06-23",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 6"
+      },
+      {
+        "ref": "예레미야 26:1-12"
+      },
+      {
+        "ref": "요한계시록 2:8-11"
+      }
+    ]
   },
   {
     "date": "2026-06-24",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 6"
+      },
+      {
+        "ref": "예레미야 38:1-13"
+      },
+      {
+        "ref": "마태복음 10:5-23"
+      }
+    ]
   },
   {
     "date": "2026-06-25",
     "weekday": "목",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "6.25 전쟁 기념",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 89:1-18"
+      },
+      {
+        "ref": "예레미야 25:1-7"
+      },
+      {
+        "ref": "갈라디아서 5:2-6"
+      }
+    ]
   },
   {
     "date": "2026-06-26",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 89:1-18"
+      },
+      {
+        "ref": "예레미야 25:8-14"
+      },
+      {
+        "ref": "누가복음 17:1-4"
+      }
+    ]
   },
   {
     "date": "2026-06-27",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 89:1-18"
+      },
+      {
+        "ref": "예레미야 28:1-4"
+      },
+      {
+        "ref": "누가복음 17:1-4"
+      }
+    ]
   },
   {
     "date": "2026-06-28",
     "weekday": "일",
-    "season": "성령강림 후 제5주일",
+    "season": "북한선교주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "지혜 1:13-15, 2:23-24"
+        "ref": "예레미야 28:5-9"
       },
       {
-        "ref": "시 30"
+        "ref": "시편 89:1-18"
       },
       {
-        "ref": "고후 8:7-15"
+        "ref": "로마서 6:12-23"
       },
       {
-        "ref": "막 5:21-43"
+        "ref": "마태복음 10:40-42"
       }
     ]
   },
@@ -1620,61 +3869,121 @@
     "date": "2026-06-29",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:161-168"
+      },
+      {
+        "ref": "열왕기상 21:1-16"
+      },
+      {
+        "ref": "데살로니가전서 4:9-12"
+      }
+    ]
   },
   {
     "date": "2026-06-30",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:161-168"
+      },
+      {
+        "ref": "열왕기상 21:17-29"
+      },
+      {
+        "ref": "요한일서 4:1-6"
+      }
+    ]
   },
   {
     "date": "2026-07-01",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:161-168"
+      },
+      {
+        "ref": "예레미야 18:1-11"
+      },
+      {
+        "ref": "마태복음 11:20-24"
+      }
+    ]
   },
   {
     "date": "2026-07-02",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:8-14"
+      },
+      {
+        "ref": "스가랴 1:1-6"
+      },
+      {
+        "ref": "로마서 7:1-6"
+      }
+    ]
   },
   {
     "date": "2026-07-03",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:8-14"
+      },
+      {
+        "ref": "스가랴 2:6-13"
+      },
+      {
+        "ref": "로마서 7:7-20"
+      }
+    ]
   },
   {
     "date": "2026-07-04",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:8-14"
+      },
+      {
+        "ref": "스가랴 4:1-7"
+      },
+      {
+        "ref": "로마서 10:21-24"
+      }
+    ]
   },
   {
     "date": "2026-07-05",
     "weekday": "일",
-    "season": "성령강림 후 제6주일",
-    "liturgicalColor": "green",
+    "season": "맥추감사주일",
+    "liturgicalColor": "white",
     "items": [
       {
-        "ref": "사무엘하 5:1-5, 9-10"
+        "ref": "스가랴 9:9-12"
       },
       {
-        "ref": "시 48"
+        "ref": "시편 145:8-14"
       },
       {
-        "ref": "고린도후서 12:2-10"
+        "ref": "로마서 7:15-25"
       },
       {
-        "ref": "막 6:1-13"
+        "ref": "마태복음 11:16-30"
       }
     ]
   },
@@ -1682,61 +3991,121 @@
     "date": "2026-07-06",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 131"
+      },
+      {
+        "ref": "예레미야 27:1-11"
+      },
+      {
+        "ref": "로마서 1:18-25"
+      }
+    ]
   },
   {
     "date": "2026-07-07",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 131"
+      },
+      {
+        "ref": "예레미야 28:10-17"
+      },
+      {
+        "ref": "로마서 3:1-8"
+      }
+    ]
   },
   {
     "date": "2026-07-08",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 131"
+      },
+      {
+        "ref": "예레미야 13:1-11"
+      },
+      {
+        "ref": "요한복음 13:1-17"
+      }
+    ]
   },
   {
     "date": "2026-07-09",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 65:9-13"
+      },
+      {
+        "ref": "이사야 48:1-5"
+      },
+      {
+        "ref": "로마서 2:12-16"
+      }
+    ]
   },
   {
     "date": "2026-07-10",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 65:9-13"
+      },
+      {
+        "ref": "이사야 48:6-11"
+      },
+      {
+        "ref": "로마서 15:14-21"
+      }
+    ]
   },
   {
     "date": "2026-07-11",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 65:9-13"
+      },
+      {
+        "ref": "이사야 52:1-6"
+      },
+      {
+        "ref": "요한복음 12:44-50"
+      }
+    ]
   },
   {
     "date": "2026-07-12",
     "weekday": "일",
-    "season": "성령강림 후 제7주일",
+    "season": "교사주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사무엘하 6:1-5, 12b-19"
+        "ref": "이사야 55:10-13"
       },
       {
-        "ref": "시 24"
+        "ref": "시편 65:1-13"
       },
       {
-        "ref": "에 1:3-14"
+        "ref": "로마서 8:1-11"
       },
       {
-        "ref": "막 6:14-29"
+        "ref": "마태복음 13:1-23"
       }
     ]
   },
@@ -1744,61 +4113,121 @@
     "date": "2026-07-13",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 92"
+      },
+      {
+        "ref": "레위기 26:3-20"
+      },
+      {
+        "ref": "데살로니가전서 4:1-8"
+      }
+    ]
   },
   {
     "date": "2026-07-14",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 92"
+      },
+      {
+        "ref": "신명기 28:1-14"
+      },
+      {
+        "ref": "에베소서 4:17-5"
+      }
+    ]
   },
   {
     "date": "2026-07-15",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 92"
+      },
+      {
+        "ref": "잠언 11:23-30"
+      },
+      {
+        "ref": "마태복음 13:10-17"
+      }
+    ]
   },
   {
     "date": "2026-07-16",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 86:11-17"
+      },
+      {
+        "ref": "이사야 41:21-29"
+      },
+      {
+        "ref": "히브리서 2:1-9"
+      }
+    ]
   },
   {
     "date": "2026-07-17",
     "weekday": "금",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "제헌절",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 86:11-17"
+      },
+      {
+        "ref": "이사야 44:9-17"
+      },
+      {
+        "ref": "히브리서 6:13-20"
+      }
+    ]
   },
   {
     "date": "2026-07-18",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 86:11-17"
+      },
+      {
+        "ref": "이사야 44:18-20"
+      },
+      {
+        "ref": "마태복음 7:15-20"
+      }
+    ]
   },
   {
     "date": "2026-07-19",
     "weekday": "일",
-    "season": "성령강림 후 제8주일",
+    "season": "성령강림 후 8주",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사무엘하 7:1-14a"
+        "ref": "이사야 44:6-8"
       },
       {
-        "ref": "시 89:20-37"
+        "ref": "시편 86:11-17"
       },
       {
-        "ref": "에 2:11-22"
+        "ref": "로마서 8:12-25"
       },
       {
-        "ref": "막 6:30-34, 53-56"
+        "ref": "마태복음 13:24-43"
       }
     ]
   },
@@ -1806,61 +4235,121 @@
     "date": "2026-07-20",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 75"
+      },
+      {
+        "ref": "나훔 1:1-13"
+      },
+      {
+        "ref": "요한계시록 14:12-20"
+      }
+    ]
   },
   {
     "date": "2026-07-21",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 75"
+      },
+      {
+        "ref": "나훔 3:1-13"
+      },
+      {
+        "ref": "갈라디아서 4:21-5"
+      }
+    ]
   },
   {
     "date": "2026-07-22",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 75"
+      },
+      {
+        "ref": "다니엘 12:1-13"
+      },
+      {
+        "ref": "마태복음 12:15-21"
+      }
+    ]
   },
   {
     "date": "2026-07-23",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:129-136"
+      },
+      {
+        "ref": "열왕기상 1:28-37"
+      },
+      {
+        "ref": "고린도전서 4:14-20"
+      }
+    ]
   },
   {
     "date": "2026-07-24",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:129-136"
+      },
+      {
+        "ref": "열왕기상 1:38-48"
+      },
+      {
+        "ref": "사도행전 7:44-53"
+      }
+    ]
   },
   {
     "date": "2026-07-25",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:129-136"
+      },
+      {
+        "ref": "열왕기상 2:1-4"
+      },
+      {
+        "ref": "마태복음 12:38-42"
+      }
+    ]
   },
   {
     "date": "2026-07-26",
     "weekday": "일",
-    "season": "성령강림 후 제9주일",
+    "season": "성령강림 후 9주",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사무엘하 11:1-15"
+        "ref": "열왕기상 3:5-12"
       },
       {
-        "ref": "시 14"
+        "ref": "시편 119:129-136"
       },
       {
-        "ref": "에 3:14-21"
+        "ref": "로마서 8:26-39"
       },
       {
-        "ref": "요 6:1-21"
+        "ref": "마태복음 13:31-52"
       }
     ]
   },
@@ -1868,61 +4357,121 @@
     "date": "2026-07-27",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:121-128"
+      },
+      {
+        "ref": "열왕기상 3:16-28"
+      },
+      {
+        "ref": "야고보서 3:13-18"
+      }
+    ]
   },
   {
     "date": "2026-07-28",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:121-128"
+      },
+      {
+        "ref": "열왕기상 4:29-34"
+      },
+      {
+        "ref": "에베소서 6:10-18"
+      }
+    ]
   },
   {
     "date": "2026-07-29",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:121-128"
+      },
+      {
+        "ref": "잠언 1:1-33"
+      },
+      {
+        "ref": "마가복음 4:30-34"
+      }
+    ]
   },
   {
     "date": "2026-07-30",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:8-21"
+      },
+      {
+        "ref": "잠언 10:1-5"
+      },
+      {
+        "ref": "빌립보서 4:10-15"
+      }
+    ]
   },
   {
     "date": "2026-07-31",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:8-21"
+      },
+      {
+        "ref": "이사야 51:17-23"
+      },
+      {
+        "ref": "로마서 9:6-13"
+      }
+    ]
   },
   {
     "date": "2026-08-01",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:8-21"
+      },
+      {
+        "ref": "이사야 44:1-5"
+      },
+      {
+        "ref": "마태복음 7:7-11"
+      }
+    ]
   },
   {
     "date": "2026-08-02",
     "weekday": "일",
-    "season": "성령강림 후 제10주일",
+    "season": "이단경계주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사무엘하 11:26-12:13a"
+        "ref": "이사야 55:1-5"
       },
       {
-        "ref": "시 51:1-12"
+        "ref": "시편 145:8-21"
       },
       {
-        "ref": "에 4:1-16"
+        "ref": "로마서 9:1-5"
       },
       {
-        "ref": "요 6:24-35"
+        "ref": "마태복음 14:13-21"
       }
     ]
   },
@@ -1930,61 +4479,121 @@
     "date": "2026-08-03",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 78:1-29"
+      },
+      {
+        "ref": "신명기 8:1-10"
+      },
+      {
+        "ref": "로마서 1:8-15"
+      }
+    ]
   },
   {
     "date": "2026-08-04",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 78:1-29"
+      },
+      {
+        "ref": "신명기 26:1-15"
+      },
+      {
+        "ref": "사도행전 2:37-47"
+      }
+    ]
   },
   {
     "date": "2026-08-05",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 78:1-29"
+      },
+      {
+        "ref": "출애굽기 16:2-35"
+      },
+      {
+        "ref": "마태복음 15:32-39"
+      }
+    ]
   },
   {
     "date": "2026-08-06",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 85:8-13"
+      },
+      {
+        "ref": "열왕기상 18:1-16"
+      },
+      {
+        "ref": "사도행전 17:10-15"
+      }
+    ]
   },
   {
     "date": "2026-08-07",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 85:8-13"
+      },
+      {
+        "ref": "열왕기상 18:17-40"
+      },
+      {
+        "ref": "사도행전 18:24-28"
+      }
+    ]
   },
   {
     "date": "2026-08-08",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 85:8-13"
+      },
+      {
+        "ref": "열왕기상 18:41-46"
+      },
+      {
+        "ref": "마태복음 16:1-4"
+      }
+    ]
   },
   {
     "date": "2026-08-09",
     "weekday": "일",
-    "season": "성령강림 후 제11주일",
+    "season": "광복기념주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "사무엘하 18:5-9, 15, 31-33"
+        "ref": "열왕기상 19:9-18"
       },
       {
-        "ref": "시 130"
+        "ref": "시편 85:8-13"
       },
       {
-        "ref": "에 4:25-5:2"
+        "ref": "로마서 10:5-15"
       },
       {
-        "ref": "요 6:35, 41-51"
+        "ref": "마태복음 14:22-33"
       }
     ]
   },
@@ -1992,61 +4601,121 @@
     "date": "2026-08-10",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 18:1-19"
+      },
+      {
+        "ref": "창세기 7:11-8"
+      },
+      {
+        "ref": "베드로후서 2:4-10"
+      }
+    ]
   },
   {
     "date": "2026-08-11",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 18:1-19"
+      },
+      {
+        "ref": "창세기 19:1-29"
+      },
+      {
+        "ref": "로마서 9:14-29"
+      }
+    ]
   },
   {
     "date": "2026-08-12",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 18:1-19"
+      },
+      {
+        "ref": "욥기 36:24-37"
+      },
+      {
+        "ref": "마태복음 8:23-27"
+      }
+    ]
   },
   {
     "date": "2026-08-13",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 67"
+      },
+      {
+        "ref": "이사야 45:20-25"
+      },
+      {
+        "ref": "요한계시록 15:1-4"
+      }
+    ]
   },
   {
     "date": "2026-08-14",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 67"
+      },
+      {
+        "ref": "이사야 63:15-19"
+      },
+      {
+        "ref": "사도행전 14:19-28"
+      }
+    ]
   },
   {
     "date": "2026-08-15",
     "weekday": "토",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "광복절",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 67"
+      },
+      {
+        "ref": "이사야 56:1-5"
+      },
+      {
+        "ref": "마태복음 14:34-36"
+      }
+    ]
   },
   {
     "date": "2026-08-16",
     "weekday": "일",
-    "season": "성령강림 후 제12주일",
+    "season": "성령강림 후 12주",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "열왕기상 2:10-12"
+        "ref": "이사야 56:1-8"
       },
       {
-        "ref": "시 111"
+        "ref": "시편 67"
       },
       {
-        "ref": "에 5:15-20"
+        "ref": "로마서 11:1-32"
       },
       {
-        "ref": "요 6:51-58"
+        "ref": "마태복음 15:10-28"
       }
     ]
   },
@@ -2054,61 +4723,121 @@
     "date": "2026-08-17",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 87"
+      },
+      {
+        "ref": "열왕기하 5:1-14"
+      },
+      {
+        "ref": "사도행전 15:1-21"
+      }
+    ]
   },
   {
     "date": "2026-08-18",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 87"
+      },
+      {
+        "ref": "이사야 43:8-13"
+      },
+      {
+        "ref": "로마서 11:13-29"
+      }
+    ]
   },
   {
     "date": "2026-08-19",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 87"
+      },
+      {
+        "ref": "이사야 66:18-23"
+      },
+      {
+        "ref": "마태복음 8:1-13"
+      }
+    ]
   },
   {
     "date": "2026-08-20",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 138"
+      },
+      {
+        "ref": "에스겔 28:11-19"
+      },
+      {
+        "ref": "고린도전서 6:1-11"
+      }
+    ]
   },
   {
     "date": "2026-08-21",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 138"
+      },
+      {
+        "ref": "에스겔 31:15-18"
+      },
+      {
+        "ref": "고린도후서 10:12-18"
+      }
+    ]
   },
   {
     "date": "2026-08-22",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 138"
+      },
+      {
+        "ref": "에스겔 36:33-38"
+      },
+      {
+        "ref": "마태복음 16:5-12"
+      }
+    ]
   },
   {
     "date": "2026-08-23",
     "weekday": "일",
-    "season": "성령강림 후 제13주일",
+    "season": "성령강림 후 13주",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "열왕기상 8:(1,6,10-11), 22-30, 41-43"
+        "ref": "이사야 51:1-6"
       },
       {
-        "ref": "시 84"
+        "ref": "시편 138"
       },
       {
-        "ref": "에 6:10-20"
+        "ref": "로마서 12:1-8"
       },
       {
-        "ref": "요 6:56-69"
+        "ref": "마태복음 16:13-20"
       }
     ]
   },
@@ -2116,61 +4845,121 @@
     "date": "2026-08-24",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 18:1-32"
+      },
+      {
+        "ref": "사무엘상 7:3-13"
+      },
+      {
+        "ref": "로마서 2:1-11"
+      }
+    ]
   },
   {
     "date": "2026-08-25",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 18:1-32"
+      },
+      {
+        "ref": "신명기 32:18-39"
+      },
+      {
+        "ref": "로마서 11:33-36"
+      }
+    ]
   },
   {
     "date": "2026-08-26",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 18:1-32"
+      },
+      {
+        "ref": "이사야 28:14-22"
+      },
+      {
+        "ref": "마태복음 26:6-13"
+      }
+    ]
   },
   {
     "date": "2026-08-27",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 26:1-8"
+      },
+      {
+        "ref": "예레미야 14:13-18"
+      },
+      {
+        "ref": "에베소서 5:1-6"
+      }
+    ]
   },
   {
     "date": "2026-08-28",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 26:1-8"
+      },
+      {
+        "ref": "예레미야 15:1-9"
+      },
+      {
+        "ref": "데살로니가후서 2:7-12"
+      }
+    ]
   },
   {
     "date": "2026-08-29",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 26:1-8"
+      },
+      {
+        "ref": "예레미야 15:10-14"
+      },
+      {
+        "ref": "마태복음 8:14-17"
+      }
+    ]
   },
   {
     "date": "2026-08-30",
     "weekday": "일",
-    "season": "성령강림 후 제14주일",
+    "season": "성령강림 후 14주",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "신 4:1-2, 6-9"
+        "ref": "예레미야 15:15-21"
       },
       {
-        "ref": "시 15"
+        "ref": "시편 26:1-8"
       },
       {
-        "ref": "야고보서 1:17-27"
+        "ref": "로마서 12:9-21"
       },
       {
-        "ref": "막 7:1-8, 14-15, 21-23"
+        "ref": "마태복음 16:21-28"
       }
     ]
   },
@@ -2178,61 +4967,121 @@
     "date": "2026-08-31",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 17"
+      },
+      {
+        "ref": "사무엘하 11:2-26"
+      },
+      {
+        "ref": "요한계시록 3:1-6"
+      }
+    ]
   },
   {
     "date": "2026-09-01",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 17"
+      },
+      {
+        "ref": "사무엘하 11:27-12"
+      },
+      {
+        "ref": "요한계시록 3:7-13"
+      }
+    ]
   },
   {
     "date": "2026-09-02",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 17"
+      },
+      {
+        "ref": "예레미야 17:5-18"
+      },
+      {
+        "ref": "마태복음 12:22-32"
+      }
+    ]
   },
   {
     "date": "2026-09-03",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:33-40"
+      },
+      {
+        "ref": "에스겔 24:1-14"
+      },
+      {
+        "ref": "고린도후서 12:11-21"
+      }
+    ]
   },
   {
     "date": "2026-09-04",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:33-40"
+      },
+      {
+        "ref": "에스겔 24:15-27"
+      },
+      {
+        "ref": "로마서 10:15-21"
+      }
+    ]
   },
   {
     "date": "2026-09-05",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:33-40"
+      },
+      {
+        "ref": "에스겔 33:1-6"
+      },
+      {
+        "ref": "마태복음 23:29-36"
+      }
+    ]
   },
   {
     "date": "2026-09-06",
     "weekday": "일",
-    "season": "성령강림 후 제15주일",
+    "season": "창조절 첫째 주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "잠 22:1-2, 8-9, 22-23"
+        "ref": "에스겔 33:7-11"
       },
       {
-        "ref": "시 125"
+        "ref": "시편 119:33-40"
       },
       {
-        "ref": "야고보서 2:1-10, 14-17"
+        "ref": "로마서 13:8-14"
       },
       {
-        "ref": "막 7:24-37"
+        "ref": "마태복음 18:15-20"
       }
     ]
   },
@@ -2240,61 +5089,121 @@
     "date": "2026-09-07",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:65-72"
+      },
+      {
+        "ref": "레위기 4:27-5"
+      },
+      {
+        "ref": "베드로전서 2:11-17"
+      }
+    ]
   },
   {
     "date": "2026-09-08",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:65-72"
+      },
+      {
+        "ref": "신명기 17:2-13"
+      },
+      {
+        "ref": "로마서 13:1-7"
+      }
+    ]
   },
   {
     "date": "2026-09-09",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:65-72"
+      },
+      {
+        "ref": "레위기 16:1-28"
+      },
+      {
+        "ref": "마태복음 21:18-22"
+      }
+    ]
   },
   {
     "date": "2026-09-10",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 103:8-13"
+      },
+      {
+        "ref": "창세기 37:12-36"
+      },
+      {
+        "ref": "요한일서 3:11-16"
+      }
+    ]
   },
   {
     "date": "2026-09-11",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 103:8-13"
+      },
+      {
+        "ref": "창세기 41:53-42"
+      },
+      {
+        "ref": "사도행전 7:9-16"
+      }
+    ]
   },
   {
     "date": "2026-09-12",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 103:8-13"
+      },
+      {
+        "ref": "창세기 45:1-20"
+      },
+      {
+        "ref": "마태복음 6:7-15"
+      }
+    ]
   },
   {
     "date": "2026-09-13",
     "weekday": "일",
-    "season": "성령강림 후 제16주일",
+    "season": "총회주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "잠 1:20-33"
+        "ref": "창세기 50:15-21"
       },
       {
-        "ref": "시 19"
+        "ref": "시편 103:1-13"
       },
       {
-        "ref": "야고보서 3:1-12"
+        "ref": "로마서 14:1-12"
       },
       {
-        "ref": "막 8:27-38"
+        "ref": "마태복음 18:21-35"
       }
     ]
   },
@@ -2302,61 +5211,121 @@
     "date": "2026-09-14",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 133"
+      },
+      {
+        "ref": "창세기 48:8-22"
+      },
+      {
+        "ref": "히브리서 11:23-29"
+      }
+    ]
   },
   {
     "date": "2026-09-15",
     "weekday": "화",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "제111회 총회",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 133"
+      },
+      {
+        "ref": "창세기 49:29-50"
+      },
+      {
+        "ref": "로마서 14:13-15"
+      }
+    ]
   },
   {
     "date": "2026-09-16",
     "weekday": "수",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "제111회 총회",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 133"
+      },
+      {
+        "ref": "창세기 50:22-26"
+      },
+      {
+        "ref": "마가복음 11:20-25"
+      }
+    ]
   },
   {
     "date": "2026-09-17",
     "weekday": "목",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "제111회 총회",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:1-8"
+      },
+      {
+        "ref": "나훔 1:1-2"
+      },
+      {
+        "ref": "고린도후서 13:1-4"
+      }
+    ]
   },
   {
     "date": "2026-09-18",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:1-8"
+      },
+      {
+        "ref": "나훔 2:3-13"
+      },
+      {
+        "ref": "고린도후서 13:5-10"
+      }
+    ]
   },
   {
     "date": "2026-09-19",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 145:1-8"
+      },
+      {
+        "ref": "스바냐 2:13-15"
+      },
+      {
+        "ref": "마태복음 19:23-30"
+      }
+    ]
   },
   {
     "date": "2026-09-20",
     "weekday": "일",
-    "season": "성령강림 후 제17주일",
+    "season": "외국인선교주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "잠 31:10-31"
+        "ref": "요나 3:10-4"
       },
       {
-        "ref": "시 1"
+        "ref": "시편 145:1-8"
       },
       {
-        "ref": "야고보서 3:13-4:3, 7-8a"
+        "ref": "빌립보서 1:21-30"
       },
       {
-        "ref": "막 9:30-37"
+        "ref": "마태복음 20:1-16"
       }
     ]
   },
@@ -2364,61 +5333,121 @@
     "date": "2026-09-21",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 106:1-12"
+      },
+      {
+        "ref": "창세기 27:1-29"
+      },
+      {
+        "ref": "로마서 16:1-16"
+      }
+    ]
   },
   {
     "date": "2026-09-22",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 106:1-12"
+      },
+      {
+        "ref": "창세기 28:10-17"
+      },
+      {
+        "ref": "로마서 16:17-20"
+      }
+    ]
   },
   {
     "date": "2026-09-23",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 106:1-12"
+      },
+      {
+        "ref": "이사야 41:1-13"
+      },
+      {
+        "ref": "마태복음 18:1-5"
+      }
+    ]
   },
   {
     "date": "2026-09-24",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 25:1-9"
+      },
+      {
+        "ref": "에스겔 12:17-28"
+      },
+      {
+        "ref": "야고보서 4:11-16"
+      }
+    ]
   },
   {
     "date": "2026-09-25",
     "weekday": "금",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "추석",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 25:1-9"
+      },
+      {
+        "ref": "에스겔 18:5-18"
+      },
+      {
+        "ref": "사도행전 13:32-41"
+      }
+    ]
   },
   {
     "date": "2026-09-26",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 25:1-9"
+      },
+      {
+        "ref": "에스겔 18:19-24"
+      },
+      {
+        "ref": "마가복음 11:27-33"
+      }
+    ]
   },
   {
     "date": "2026-09-27",
     "weekday": "일",
-    "season": "성령강림 후 제18주일",
+    "season": "단군상대책기도",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "에 7:1-6, 9-10"
+        "ref": "에스겔 18:1-32"
       },
       {
-        "ref": "시 124"
+        "ref": "시편 25:1-9"
       },
       {
-        "ref": "야고보서 5:13-20"
+        "ref": "빌립보서 2:1-13"
       },
       {
-        "ref": "막 9:38-50"
+        "ref": "마태복음 21:23-32"
       }
     ]
   },
@@ -2426,61 +5455,121 @@
     "date": "2026-09-28",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 28"
+      },
+      {
+        "ref": "사사기 14:1-20"
+      },
+      {
+        "ref": "빌립보서 1:3-14"
+      }
+    ]
   },
   {
     "date": "2026-09-29",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 28"
+      },
+      {
+        "ref": "사사기 16:1-22"
+      },
+      {
+        "ref": "빌립보서 1:15-21"
+      }
+    ]
   },
   {
     "date": "2026-09-30",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 28"
+      },
+      {
+        "ref": "사사기 16:23-31"
+      },
+      {
+        "ref": "마태복음 9:2-8"
+      }
+    ]
   },
   {
     "date": "2026-10-01",
     "weekday": "목",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "국군의 날",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 80:7-15"
+      },
+      {
+        "ref": "예레미야 2:14-22"
+      },
+      {
+        "ref": "골로새서 2:16-23"
+      }
+    ]
   },
   {
     "date": "2026-10-02",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 80:7-15"
+      },
+      {
+        "ref": "예레미야 2:23-37"
+      },
+      {
+        "ref": "빌립보서 2:14-18"
+      }
+    ]
   },
   {
     "date": "2026-10-03",
     "weekday": "토",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "개천절",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 80:7-15"
+      },
+      {
+        "ref": "예레미야 6:1-10"
+      },
+      {
+        "ref": "요한복음 7:40-52"
+      }
+    ]
   },
   {
     "date": "2026-10-04",
     "weekday": "일",
-    "season": "성령강림 후 제19주일",
+    "season": "신학교주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "욥기 1:1"
+        "ref": "이사야 5:1-7"
       },
       {
-        "ref": "시 26"
+        "ref": "시편 80:7-15"
       },
       {
-        "ref": "히브리서 1:1-4"
+        "ref": "빌립보서 3:4-14"
       },
       {
-        "ref": "막 10:2-16"
+        "ref": "마태복음 21:33-46"
       }
     ]
   },
@@ -2488,61 +5577,121 @@
     "date": "2026-10-05",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 144"
+      },
+      {
+        "ref": "에스겔 19:10-14"
+      },
+      {
+        "ref": "베드로전서 2:4-10"
+      }
+    ]
   },
   {
     "date": "2026-10-06",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 144"
+      },
+      {
+        "ref": "이사야 27:1-6"
+      },
+      {
+        "ref": "고린도후서 5:17-21"
+      }
+    ]
   },
   {
     "date": "2026-10-07",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 144"
+      },
+      {
+        "ref": "아가 8:5-14"
+      },
+      {
+        "ref": "요한복음 11:45-57"
+      }
+    ]
   },
   {
     "date": "2026-10-08",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "이사야 22:1-8"
+      },
+      {
+        "ref": "베드로전서 5:1-14"
+      }
+    ]
   },
   {
     "date": "2026-10-09",
     "weekday": "금",
-    "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "season": "한글날",
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "이사야 22:8-14"
+      },
+      {
+        "ref": "야고보서 4:4-10"
+      }
+    ]
   },
   {
     "date": "2026-10-10",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 23"
+      },
+      {
+        "ref": "이사야 24:17-23"
+      },
+      {
+        "ref": "마가복음 2:18-22"
+      }
+    ]
   },
   {
     "date": "2026-10-11",
     "weekday": "일",
-    "season": "성령강림 후 제20주일",
+    "season": "직장선교주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "욥기 23:1-9, 16-17"
+        "ref": "이사야 25:1-9"
       },
       {
-        "ref": "시 22:1-15"
+        "ref": "시편 23"
       },
       {
-        "ref": "히브리서 4:12-16"
+        "ref": "빌립보서 4:1-9"
       },
       {
-        "ref": "막 10:17-31"
+        "ref": "마태복음 22:1-14"
       }
     ]
   },
@@ -2550,61 +5699,121 @@
     "date": "2026-10-12",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 34"
+      },
+      {
+        "ref": "출애굽기 19:7-20"
+      },
+      {
+        "ref": "유다서 1:17-25"
+      }
+    ]
   },
   {
     "date": "2026-10-13",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 34"
+      },
+      {
+        "ref": "아모스 9:5-15"
+      },
+      {
+        "ref": "빌립보서 3:13-4"
+      }
+    ]
   },
   {
     "date": "2026-10-14",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 34"
+      },
+      {
+        "ref": "아가 7:10-8"
+      },
+      {
+        "ref": "요한복음 6:25-35"
+      }
+    ]
   },
   {
     "date": "2026-10-15",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 96:1-9"
+      },
+      {
+        "ref": "다니엘 3:1-30"
+      },
+      {
+        "ref": "요한계시록 18:1-24"
+      }
+    ]
   },
   {
     "date": "2026-10-16",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 96:1-9"
+      },
+      {
+        "ref": "사사기 17:1-6"
+      },
+      {
+        "ref": "요한삼서 1:9-12"
+      }
+    ]
   },
   {
     "date": "2026-10-17",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 96:1-9"
+      },
+      {
+        "ref": "이사야 45:1-7"
+      },
+      {
+        "ref": "마태복음 22:15-22"
+      }
+    ]
   },
   {
     "date": "2026-10-18",
     "weekday": "일",
-    "season": "성령강림 후 제21주일",
+    "season": "세계교회일치",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "욥기 38:1-7, (34-41)"
+        "ref": "이사야 45:1-7"
       },
       {
-        "ref": "시 104:1-9, 24, 35c"
+        "ref": "시편 96:1-9"
       },
       {
-        "ref": "히브리서 5:1-10"
+        "ref": "데살로니가전서 1:1-10"
       },
       {
-        "ref": "막 10:35-45"
+        "ref": "마태복음 22:15-22"
       }
     ]
   },
@@ -2612,61 +5821,121 @@
     "date": "2026-10-19",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 98"
+      },
+      {
+        "ref": "다니엘 6:1-28"
+      },
+      {
+        "ref": "베드로전서 5:1-5"
+      }
+    ]
   },
   {
     "date": "2026-10-20",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 98"
+      },
+      {
+        "ref": "이사야 14:3-11"
+      },
+      {
+        "ref": "마태복음 14:1-12"
+      }
+    ]
   },
   {
     "date": "2026-10-21",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 98"
+      },
+      {
+        "ref": "잠언 24:23-34"
+      },
+      {
+        "ref": "요한복음 5:39-47"
+      }
+    ]
   },
   {
     "date": "2026-10-22",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 1"
+      },
+      {
+        "ref": "민수기 5:5-10"
+      },
+      {
+        "ref": "디도서 1:5-16"
+      }
+    ]
   },
   {
     "date": "2026-10-23",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 1"
+      },
+      {
+        "ref": "신명기 9:25-10"
+      },
+      {
+        "ref": "디도서 2:7-15"
+      }
+    ]
   },
   {
     "date": "2026-10-24",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 1"
+      },
+      {
+        "ref": "잠언 24:23-34"
+      },
+      {
+        "ref": "요한복음 5:39-47"
+      }
+    ]
   },
   {
     "date": "2026-10-25",
     "weekday": "일",
-    "season": "성령강림 후 제22주일",
+    "season": "종교개혁주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "욥기 42:1-6, 10-17"
+        "ref": "레위기 19:1-18"
       },
       {
-        "ref": "시 34:1-8, (19-22)"
+        "ref": "시편 1"
       },
       {
-        "ref": "히브리서 7:23-28"
+        "ref": "데살로니가전서 2:1-8"
       },
       {
-        "ref": "막 10:46-52"
+        "ref": "마태복음 22:34-46"
       }
     ]
   },
@@ -2674,61 +5943,121 @@
     "date": "2026-10-26",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:41-48"
+      },
+      {
+        "ref": "신명기 10:10-22"
+      },
+      {
+        "ref": "야고보서 2:8-13"
+      }
+    ]
   },
   {
     "date": "2026-10-27",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:41-48"
+      },
+      {
+        "ref": "잠언 16:1-20"
+      },
+      {
+        "ref": "야고보서 2:14-26"
+      }
+    ]
   },
   {
     "date": "2026-10-28",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 119:41-48"
+      },
+      {
+        "ref": "신명기 26:16-27"
+      },
+      {
+        "ref": "마태복음 19:16-22"
+      }
+    ]
   },
   {
     "date": "2026-10-29",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 43"
+      },
+      {
+        "ref": "사무엘상 2:27-36"
+      },
+      {
+        "ref": "로마서 2:17-29"
+      }
+    ]
   },
   {
     "date": "2026-10-30",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 43"
+      },
+      {
+        "ref": "에스겔 13:1-16"
+      },
+      {
+        "ref": "베드로후서 2:1-3"
+      }
+    ]
   },
   {
     "date": "2026-10-31",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 43"
+      },
+      {
+        "ref": "말라기 1:6-2"
+      },
+      {
+        "ref": "마태복음 23:13-28"
+      }
+    ]
   },
   {
     "date": "2026-11-01",
     "weekday": "일",
-    "season": "성령강림 후 제23주일",
+    "season": "학원선교주일",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "신 6:1-9"
+        "ref": "미가 3:5-12"
       },
       {
-        "ref": "시 119:1-8"
+        "ref": "시편 43"
       },
       {
-        "ref": "히브리서 9:11-14"
+        "ref": "데살로니가전서 2:9-13"
       },
       {
-        "ref": "막 12:28-34"
+        "ref": "마태복음 23:1-12"
       }
     ]
   },
@@ -2736,61 +6065,121 @@
     "date": "2026-11-02",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 5"
+      },
+      {
+        "ref": "예레미야 5:18-31"
+      },
+      {
+        "ref": "데살로니가전서 2:13-20"
+      }
+    ]
   },
   {
     "date": "2026-11-03",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 5"
+      },
+      {
+        "ref": "예레미야애가 2:13-17"
+      },
+      {
+        "ref": "사도행전 13:1-12"
+      }
+    ]
   },
   {
     "date": "2026-11-04",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 5"
+      },
+      {
+        "ref": "아모스 1:1-2"
+      },
+      {
+        "ref": "마태복음 15:1-9"
+      }
+    ]
   },
   {
     "date": "2026-11-05",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 70"
+      },
+      {
+        "ref": "아모스 3:1-12"
+      },
+      {
+        "ref": "요한계시록 9:13-21"
+      }
+    ]
   },
   {
     "date": "2026-11-06",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 70"
+      },
+      {
+        "ref": "아모스 4:6-13"
+      },
+      {
+        "ref": "마태복음 24:1-14"
+      }
+    ]
   },
   {
     "date": "2026-11-07",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 70"
+      },
+      {
+        "ref": "아모스 5:1-12"
+      },
+      {
+        "ref": "마태복음 24:15-28"
+      }
+    ]
   },
   {
     "date": "2026-11-08",
     "weekday": "일",
-    "season": "성령강림 후 제24주일",
+    "season": "경찰교정선교",
     "liturgicalColor": "green",
     "items": [
       {
-        "ref": "열왕기상 17:8-16"
+        "ref": "아모스 5:18-24"
       },
       {
-        "ref": "시 146"
+        "ref": "시편 70"
       },
       {
-        "ref": "히브리서 9:24-28"
+        "ref": "데살로니가전서 4:13-18"
       },
       {
-        "ref": "막 12:38-44"
+        "ref": "마태복음 25:1-13"
       }
     ]
   },
@@ -2798,61 +6187,121 @@
     "date": "2026-11-09",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 63"
+      },
+      {
+        "ref": "아모스 8:7-14"
+      },
+      {
+        "ref": "고린도전서 14:20-25"
+      }
+    ]
   },
   {
     "date": "2026-11-10",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 63"
+      },
+      {
+        "ref": "요엘 1:1-14"
+      },
+      {
+        "ref": "데살로니가전서 3:6-13"
+      }
+    ]
   },
   {
     "date": "2026-11-11",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 63"
+      },
+      {
+        "ref": "요엘 3:9-21"
+      },
+      {
+        "ref": "마태복음 24:29-35"
+      }
+    ]
   },
   {
     "date": "2026-11-12",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 90:1-12"
+      },
+      {
+        "ref": "에스겔 6:1-14"
+      },
+      {
+        "ref": "요한계시록 16:1-7"
+      }
+    ]
   },
   {
     "date": "2026-11-13",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 90:1-12"
+      },
+      {
+        "ref": "에스겔 7:1-9"
+      },
+      {
+        "ref": "요한계시록 16:8-21"
+      }
+    ]
   },
   {
     "date": "2026-11-14",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 90:1-12"
+      },
+      {
+        "ref": "에스겔 7:10-27"
+      },
+      {
+        "ref": "마태복음 12:43-45"
+      }
+    ]
   },
   {
     "date": "2026-11-15",
     "weekday": "일",
-    "season": "성령강림 후 제25주일",
-    "liturgicalColor": "green",
+    "season": "추수감사주일",
+    "liturgicalColor": "white",
     "items": [
       {
-        "ref": "사무엘상 1:4-20"
+        "ref": "스바냐 1:7-18"
       },
       {
-        "ref": "사무엘상 2:1-10"
+        "ref": "시편 90:1-12"
       },
       {
-        "ref": "히브리서 10:11-14, (15-18), 19-25"
+        "ref": "데살로니가전서 5:1-11"
       },
       {
-        "ref": "막 13:1-8"
+        "ref": "마태복음 25:14-30"
       }
     ]
   },
@@ -2860,61 +6309,121 @@
     "date": "2026-11-16",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 9:1-14"
+      },
+      {
+        "ref": "스가랴 1:7-17"
+      },
+      {
+        "ref": "로마서 2:1-11"
+      }
+    ]
   },
   {
     "date": "2026-11-17",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 9:1-14"
+      },
+      {
+        "ref": "스가랴 2:1-5"
+      },
+      {
+        "ref": "데살로니가전서 5:12-18"
+      }
+    ]
   },
   {
     "date": "2026-11-18",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 9:1-14"
+      },
+      {
+        "ref": "욥기 16:1-21"
+      },
+      {
+        "ref": "마태복음 24:45-51"
+      }
+    ]
   },
   {
     "date": "2026-11-19",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 95:1-7"
+      },
+      {
+        "ref": "열왕기상 22:13-23"
+      },
+      {
+        "ref": "요한계시록 14:1-11"
+      }
+    ]
   },
   {
     "date": "2026-11-20",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 95:1-7"
+      },
+      {
+        "ref": "역대상 17:1-15"
+      },
+      {
+        "ref": "요한계시록 22:1-9"
+      }
+    ]
   },
   {
     "date": "2026-11-21",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 95:1-7"
+      },
+      {
+        "ref": "이사야 44:21-28"
+      },
+      {
+        "ref": "마태복음 12:46-50"
+      }
+    ]
   },
   {
     "date": "2026-11-22",
     "weekday": "일",
-    "season": "왕이신 그리스도 주일",
+    "season": "왕이신 그리스도",
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "사무엘하 23:1-7"
+        "ref": "에스겔 34:11-24"
       },
       {
-        "ref": "시 132:1-12, (13-18)"
+        "ref": "시편 100"
       },
       {
-        "ref": "계 1:4-8"
+        "ref": "에베소서 1:15-23"
       },
       {
-        "ref": "요 18:33-37"
+        "ref": "마태복음 25:31-46"
       }
     ]
   },
@@ -2923,42 +6432,102 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 7"
+      },
+      {
+        "ref": "에스더 2:1-18"
+      },
+      {
+        "ref": "디모데후서 2:8-13"
+      }
+    ]
   },
   {
     "date": "2026-11-24",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 7"
+      },
+      {
+        "ref": "에스더 8:3-17"
+      },
+      {
+        "ref": "요한계시록 19:1-9"
+      }
+    ]
   },
   {
     "date": "2026-11-25",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 7"
+      },
+      {
+        "ref": "에스겔 33:7-20"
+      },
+      {
+        "ref": "요한복음 5:19-40"
+      }
+    ]
   },
   {
     "date": "2026-11-26",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 80:1-19"
+      },
+      {
+        "ref": "스가랴 13:1-9"
+      },
+      {
+        "ref": "데살로니가전서 4:1-18"
+      }
+    ]
   },
   {
     "date": "2026-11-27",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 80:1-19"
+      },
+      {
+        "ref": "스가랴 14:1-9"
+      },
+      {
+        "ref": "마태복음 24:15-31"
+      }
+    ]
   },
   {
     "date": "2026-11-28",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "green",
+    "items": [
+      {
+        "ref": "시편 80:1-19"
+      },
+      {
+        "ref": "미가 2:1-13"
+      },
+      {
+        "ref": "요한복음 7:40-52"
+      }
+    ]
   },
   {
     "date": "2026-11-29",
@@ -2967,16 +6536,16 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "사 2:1-5"
+        "ref": "이사야 64:1-9"
       },
       {
-        "ref": "시 122"
+        "ref": "시편 80:1-19"
       },
       {
-        "ref": "롬 13:11-14"
+        "ref": "고린도전서 1:3-9"
       },
       {
-        "ref": "마 24:36-44"
+        "ref": "마가복음 13:24-37"
       }
     ]
   },
@@ -2984,61 +6553,121 @@
     "date": "2026-11-30",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 79"
+      },
+      {
+        "ref": "미가 4:1-5"
+      },
+      {
+        "ref": "요한계시록 15:1-8"
+      }
+    ]
   },
   {
     "date": "2026-12-01",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 79"
+      },
+      {
+        "ref": "미가 4:6-13"
+      },
+      {
+        "ref": "요한계시록 18:1-10"
+      }
+    ]
   },
   {
     "date": "2026-12-02",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 79"
+      },
+      {
+        "ref": "미가 5:1-5"
+      },
+      {
+        "ref": "누가복음 21:34-38"
+      }
+    ]
   },
   {
     "date": "2026-12-03",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 85:1-13"
+      },
+      {
+        "ref": "호세아 6:1-6"
+      },
+      {
+        "ref": "데살로니가전서 1:2-10"
+      }
+    ]
   },
   {
     "date": "2026-12-04",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 85:1-13"
+      },
+      {
+        "ref": "예레미야 1:4-10"
+      },
+      {
+        "ref": "사도행전 11:19-26"
+      }
+    ]
   },
   {
     "date": "2026-12-05",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 85:1-13"
+      },
+      {
+        "ref": "에스겔 36:24-28"
+      },
+      {
+        "ref": "마가복음 11:27-33"
+      }
+    ]
   },
   {
     "date": "2026-12-06",
     "weekday": "일",
-    "season": "대림절 둘째 주일",
+    "season": "인권주일",
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "사 11:1-10"
+        "ref": "이사야 40:1-11"
       },
       {
-        "ref": "시 72:1-7, 18-19"
+        "ref": "시편 85:1-13"
       },
       {
-        "ref": "롬 15:4-13"
+        "ref": "베드로후서 3:8-15"
       },
       {
-        "ref": "마 3:1-12"
+        "ref": "마가복음 1:1-8"
       }
     ]
   },
@@ -3046,61 +6675,121 @@
     "date": "2026-12-07",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 27"
+      },
+      {
+        "ref": "이사야 26:7-15"
+      },
+      {
+        "ref": "사도행전 2:37-42"
+      }
+    ]
   },
   {
     "date": "2026-12-08",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 27"
+      },
+      {
+        "ref": "이사야 4:2-6"
+      },
+      {
+        "ref": "사도행전 11:1-18"
+      }
+    ]
   },
   {
     "date": "2026-12-09",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 27"
+      },
+      {
+        "ref": "말라기 2:10-3"
+      },
+      {
+        "ref": "누가복음 1:5-17"
+      }
+    ]
   },
   {
     "date": "2026-12-10",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 126"
+      },
+      {
+        "ref": "하박국 2:1-5"
+      },
+      {
+        "ref": "빌립보서 3:7-11"
+      }
+    ]
   },
   {
     "date": "2026-12-11",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 126"
+      },
+      {
+        "ref": "하박국 3:2-6"
+      },
+      {
+        "ref": "빌립보서 3:12-16"
+      }
+    ]
   },
   {
     "date": "2026-12-12",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 126"
+      },
+      {
+        "ref": "하박국 3:13-19"
+      },
+      {
+        "ref": "마태복음 21:28-32"
+      }
+    ]
   },
   {
     "date": "2026-12-13",
     "weekday": "일",
-    "season": "대림절 셋째 주일",
+    "season": "성서주일",
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "사 35:1-10"
+        "ref": "이사야 61:1-11"
       },
       {
-        "ref": "시 146:5-10"
+        "ref": "시편 126"
       },
       {
-        "ref": "야고보서 5:7-10"
+        "ref": "데살로니가전서 5:16-24"
       },
       {
-        "ref": "마 11:2-11"
+        "ref": "요한복음 1:6-28"
       }
     ]
   },
@@ -3108,43 +6797,103 @@
     "date": "2026-12-14",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 125"
+      },
+      {
+        "ref": "열왕기상 18:1-18"
+      },
+      {
+        "ref": "에베소서 6:10-17"
+      }
+    ]
   },
   {
     "date": "2026-12-15",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 125"
+      },
+      {
+        "ref": "열왕기하 2:9-22"
+      },
+      {
+        "ref": "사도행전 3:17-4"
+      }
+    ]
   },
   {
     "date": "2026-12-16",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 125"
+      },
+      {
+        "ref": "말라기 3:16-4"
+      },
+      {
+        "ref": "마가복음 9:9-13"
+      }
+    ]
   },
   {
     "date": "2026-12-17",
     "weekday": "목",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 89:1-26"
+      },
+      {
+        "ref": "사무엘하 6:1-11"
+      },
+      {
+        "ref": "히브리서 1:1-4"
+      }
+    ]
   },
   {
     "date": "2026-12-18",
     "weekday": "금",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 89:1-26"
+      },
+      {
+        "ref": "사무엘하 6:12-19"
+      },
+      {
+        "ref": "히브리서 1:5-14"
+      }
+    ]
   },
   {
     "date": "2026-12-19",
     "weekday": "토",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "시편 89:1-26"
+      },
+      {
+        "ref": "사사기 13:2-24"
+      },
+      {
+        "ref": "요한복음 7:40-52"
+      }
+    ]
   },
   {
     "date": "2026-12-20",
@@ -3153,16 +6902,16 @@
     "liturgicalColor": "purple",
     "items": [
       {
-        "ref": "사 7:10-16"
+        "ref": "사무엘하 7:1-16"
       },
       {
-        "ref": "시 80:1-7, 17-19"
+        "ref": "누가복음 1:46-55"
       },
       {
-        "ref": "롬 1:1-7"
+        "ref": "로마서 16:25-27"
       },
       {
-        "ref": "마 1:18-25"
+        "ref": "누가복음 1:26-38"
       }
     ]
   },
@@ -3170,29 +6919,72 @@
     "date": "2026-12-21",
     "weekday": "월",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "누가복음 1:46-55"
+      },
+      {
+        "ref": "사무엘상 1:1-18"
+      },
+      {
+        "ref": "히브리서 9:1-14"
+      }
+    ]
   },
   {
     "date": "2026-12-22",
     "weekday": "화",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "누가복음 1:46-55"
+      },
+      {
+        "ref": "사무엘상 1:19-28"
+      },
+      {
+        "ref": "히브리서 8:1-13"
+      }
+    ]
   },
   {
     "date": "2026-12-23",
     "weekday": "수",
     "season": "",
-    "liturgicalColor": "white",
-    "items": []
+    "liturgicalColor": "purple",
+    "items": [
+      {
+        "ref": "누가복음 1:46-55"
+      },
+      {
+        "ref": "사무엘상 2:1-10"
+      },
+      {
+        "ref": "마가복음 11:1-11"
+      }
+    ]
   },
   {
     "date": "2026-12-24",
     "weekday": "목",
-    "season": "",
+    "season": "성탄 전야",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "이사야 9:2-7"
+      },
+      {
+        "ref": "시편 96"
+      },
+      {
+        "ref": "디도서 2:11-14"
+      },
+      {
+        "ref": "누가복음 2:1-20"
+      }
+    ]
   },
   {
     "date": "2026-12-25",
@@ -3201,16 +6993,16 @@
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "사 9:2-7"
+        "ref": "이사야 52:7-10"
       },
       {
-        "ref": "시 96"
+        "ref": "시편 98"
       },
       {
-        "ref": "딛 2:11-14"
+        "ref": "히브리서 1:1-14"
       },
       {
-        "ref": "눅 2:1-14"
+        "ref": "요한복음 1:1-14"
       }
     ]
   },
@@ -3219,25 +7011,35 @@
     "weekday": "토",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "예레미야 26:1-15"
+      },
+      {
+        "ref": "사도행전 6:8-7"
+      }
+    ]
   },
   {
     "date": "2026-12-27",
     "weekday": "일",
-    "season": "성탄절 후 첫째 주일",
+    "season": "성탄 후 첫째 주일",
     "liturgicalColor": "white",
     "items": [
       {
-        "ref": "사 61:10-62:3"
+        "ref": "이사야 61:10-62"
       },
       {
-        "ref": "시 148"
+        "ref": "시편 148"
       },
       {
-        "ref": "갈 4:4-7"
+        "ref": "갈라디아서 4:4-7"
       },
       {
-        "ref": "눅 2:22-40"
+        "ref": "누가복음 2:22-40"
       }
     ]
   },
@@ -3246,27 +7048,67 @@
     "weekday": "월",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "예레미야 31:15-17"
+      },
+      {
+        "ref": "마태복음 2:13-18"
+      }
+    ]
   },
   {
     "date": "2026-12-29",
     "weekday": "화",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "이사야 49:5-15"
+      },
+      {
+        "ref": "마태복음 12:46-50"
+      }
+    ]
   },
   {
     "date": "2026-12-30",
     "weekday": "수",
     "season": "",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "잠언 9:1-12"
+      },
+      {
+        "ref": "베드로후서 3:8-13"
+      }
+    ]
   },
   {
     "date": "2026-12-31",
     "weekday": "목",
-    "season": "",
+    "season": "송구영신",
     "liturgicalColor": "white",
-    "items": []
+    "items": [
+      {
+        "ref": "시편 148"
+      },
+      {
+        "ref": "열왕기상 3:5-14"
+      },
+      {
+        "ref": "요한복음 8:12-19"
+      }
+    ]
   }
 ]

@@ -120,6 +120,13 @@ function goToToday() {
     showDateContent(selectedDate);
 }
 
+function formatDate(date) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+}
+
 function renderCalendar() {
     monthDisplay.innerText = `${currentYear}년 ${currentMonth + 1}월`;
 
@@ -138,7 +145,7 @@ function renderCalendar() {
 
     for (let d = 1; d <= daysInMonth; d++) {
         const dateObj = new Date(currentYear, currentMonth, d);
-        const dateStr = dateObj.toISOString().split('T')[0];
+        const dateStr = formatDate(dateObj);
         const dayData = lectionaryData.find(item => item.date === dateStr);
 
         const cell = document.createElement('div');
@@ -174,7 +181,7 @@ function isSelected(date) {
 }
 
 function showDateContent(date) {
-    const dateStr = date.toISOString().split('T')[0];
+    const dateStr = formatDate(date);
     const dayData = lectionaryData.find(item => item.date === dateStr);
 
     selectedDateDisplay.querySelector('h3').innerText = `${date.getFullYear()}년 ${date.getMonth() + 1}월 ${date.getDate()}일 (${getDayName(date)})`;
@@ -280,14 +287,14 @@ function getDayName(date) {
 function getPreviousSunday(d) {
     const date = new Date(d);
     date.setDate(date.getDate() - date.getDay());
-    return date.toISOString().split('T')[0];
+    return formatDate(date);
 }
 
 function getNextSunday(d) {
     const date = new Date(d);
     date.setDate(date.getDate() + (7 - date.getDay()) % 7);
     if (date.getTime() === d.getTime()) date.setDate(date.getDate() + 7);
-    return date.toISOString().split('T')[0];
+    return formatDate(date);
 }
 
 init();
