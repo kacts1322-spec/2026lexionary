@@ -263,24 +263,24 @@ header h1 {
     height: 7px;
     border-radius: 50%;
     position: absolute;
-    bottom: 2px;
-    /* PC/Pad: 3px -> 2px */
+    bottom: 1px;
+    /* PC/Pad: 2px -> 1px */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 600px) {
 
-    /* 모바일 세로 화면: 더 아래로 */
+    /* 모바일 세로 화면: 3px 더 아래로 (1px -> -2px) */
     .liturgical-dot {
-        bottom: 1px;
+        bottom: -2px;
     }
 }
 
 @media (max-height: 500px) and (orientation: landscape) {
 
-    /* 모바일 가로 화면: 너무 내려가지 않게 다시 위로 */
+    /* 모바일 가로 화면: 5px 더 위로 (5px -> 10px) */
     .liturgical-dot {
-        bottom: 5px;
+        bottom: 10px;
     }
 }
 
