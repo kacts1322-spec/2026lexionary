@@ -263,8 +263,14 @@ header h1 {
     height: 7px;
     border-radius: 50%;
     position: absolute;
-    bottom: 4px;
+    bottom: 3px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .liturgical-dot {
+        bottom: 2px;
+    }
 }
 
 .color-white {
